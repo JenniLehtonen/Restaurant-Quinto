@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-=======
 body{
     margin: 0;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
     padding: 0;
     width: 100%;
@@ -13,7 +11,6 @@ footer{
     color:black;
     padding-top:1px;
     padding-bottom:1px;
-    width:100%;
     font-weight: 500;
     color: white;
     position:absolute;
@@ -22,23 +19,21 @@ footer{
     text-align: center;
     width:100%;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color:white;
-    font-size:8vw;
-}
 
 
 /*NAVBAR CODE BEGINS*/
+
+a:hover {
+  color: yellow;  /*VAIHDA VÄRI*/
+}
+
 header {
     width: 100%;
     height: 100vh;
-    background: url(../images/food.jpg);
+    background: url(../images/food.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
+
 .content {
     width: 94%;
     margin: 4em auto;
@@ -46,6 +41,7 @@ header {
     line-height: 30px;
     text-align: justify;
 }
+
 .logo {
     line-height: 60px;
     position: fixed;
@@ -56,11 +52,13 @@ header {
     font-size: 20px;
     letter-spacing: 2px;
 }
+
 nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
 }
+
 nav ul {
     line-height: 60px;
     list-style: none;
@@ -73,18 +71,22 @@ nav ul {
     padding-right: 40px;
     transition: 1s;
 }
+
 nav.black ul {
     background: #000;
 }
+
 nav ul li {
     display: inline-block;
     padding: 16px 40px;;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
 }
+
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -96,9 +98,7 @@ nav ul li a {
     color: #fff;
     display: none;
 }
-.menu{
-  font-weight: 700;
-}
+
 @media(max-width: 786px) {
 
     .logo {
@@ -130,8 +130,5 @@ nav ul li a {
     .menu-icon {
           display: block;
     }
+
 }
-a:hover {
-  color: yellow;  /*VAIHDA VÄRI*/
-}
->>>>>>> parent of 1c56c97... d
