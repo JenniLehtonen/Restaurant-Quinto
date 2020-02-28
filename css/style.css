@@ -31,14 +31,20 @@ footer{
 }
 
 
-/*NAVBAR CODE BEGINS*/
+  /*NAVBAR CODE BEGINS*/
 header {
     width: 100%;
+<<<<<<< HEAD
     height: 60vh;
     /*background: url(../images/food.jpg);
     background-size: cover;*/
     position:relative;
     z-index: 1;
+=======
+    height: 100vh;
+    background: url("images/food.jpg");
+    background-size: cover;
+>>>>>>> parent of 25ede74... sdf
 }
 .content {
     width: 94%;
