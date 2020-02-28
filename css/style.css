@@ -49,21 +49,48 @@ a:hover {
 
 
   /*NAVBAR CODE BEGINS*/
-  #topheader .navbar-nav li > a {
-	text-transform: capitalize;
-	color: #333;
-	transition: background-color .2s, color .2s;
-	
-	&:hover,
-	&:focus {
-		background-color: #333;
-		color: #fff;
-	}
-}
-.nav-item{
-    float:right;
-}
-#topheader .navbar-nav li.active > a {
-	background-color: #333;
-	color: #fff;
-}
+  .banner {
+    background: #fff;
+    font-family: Lato, sans-serif;
+  }
+  .navbar-nav-primary {
+    text-transform: uppercase;
+  }
+  
+  .navbar-form-search {
+    position: relative;
+    .form-control {
+      width: 250px;
+    }
+    .btn {
+      border: 0;
+      background: transparent;
+      font-size: 18px;
+      &:active,
+      &:hover,
+      &:focus {
+        color: #000;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    
+    .search-form-container {
+      text-align: right;
+      position: absolute;
+      width: 300px;
+      overflow: hidden;
+      background: #fff;
+      right: 60px;
+      top: 0;
+      z-index: 9;
+      transition: all .3s ease-in-out;
+      &.hdn {
+        width: 0;
+      }
+      
+      .search-input-group {
+        width: 300px;
+      }
+    }
+  }
