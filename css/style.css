@@ -32,12 +32,24 @@ footer{
 
 
   /*NAVBAR CODE BEGINS*/
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",sans-serif;
+    font-weight: lighter;
+}
+
 header {
     width: 100%;
     height: 100vh;
-    background: url("images/food.jpg");
+    background: url() no-repeat 50% 50%;
     background-size: cover;
 }
+
 .content {
     width: 94%;
     margin: 4em auto;
@@ -45,6 +57,7 @@ header {
     line-height: 30px;
     text-align: justify;
 }
+
 .logo {
     line-height: 60px;
     position: fixed;
@@ -55,11 +68,13 @@ header {
     font-size: 20px;
     letter-spacing: 2px;
 }
+
 nav {
     position: fixed;
     width: 100%;
     line-height: 60px;
 }
+
 nav ul {
     line-height: 60px;
     list-style: none;
@@ -72,18 +87,22 @@ nav ul {
     padding-right: 40px;
     transition: 1s;
 }
+
 nav.black ul {
     background: #000;
 }
+
 nav ul li {
     display: inline-block;
     padding: 16px 40px;;
 }
+
 nav ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
 }
+
 .menu-icon {
     line-height: 60px;
     width: 100%;
@@ -95,10 +114,7 @@ nav ul li a {
     color: #fff;
     display: none;
 }
-.menu{
-  font-weight: 700;
-  font-size: 8vw;
-}
+
 @media(max-width: 786px) {
 
     .logo {
@@ -130,7 +146,9 @@ nav ul li a {
     .menu-icon {
           display: block;
     }
+
 }
+
 a:hover {
   color: yellow;  /*VAIHDA VÄRI*/
 }

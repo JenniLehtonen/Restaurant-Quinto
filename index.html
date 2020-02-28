@@ -7,49 +7,48 @@
     <meta charset="utf-8">
     <title>Restaurant Quinto</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <script>$(document).ready(function() {
-        $(".menu-icon").on("click", function() {
-              $("nav ul").toggleClass("showing");
-        });
-  });
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".menu-icon").on("click", function() {
+                  $("nav ul").toggleClass("showing");
+            });
+      });
 
-  // Scrolling Effect
+      // Scrolling Effect
 
-  $(window).on("scroll", function() {
-        if($(window).scrollTop()) {
-              $('nav').addClass('black');
-        }
+      $(window).on("scroll", function() {
+            if($(window).scrollTop()) {
+                  $('nav').addClass('black');
+            }
 
-        else {
-              $('nav').removeClass('black');
-        }
-  })</script>
+            else {
+                  $('nav').removeClass('black');
+            }
+      })
+    </script>
 </head>
 <body>
     <div class="wrapper">
         <header>
-         <nav class="nav">
-            <div class="container">
+            <nav>
+                <div class="menu-icon">
+                   <i class="fa fa-bars fa-2x"></i>
+                </div>
                 <div class="logo">
-                    <a href="#">Your Logo</a>
+                   LOGO
                 </div>
-                <div id="mainListDiv" class="main_list">
-                    <ul class="navlinks">
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
+                <div class="menu">
+                   <ul>
+                      <li><a href="#">Home</a></li>
+                      <li><a href="#">About</a></li>
+                      <li><a href="#">Blog</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Contact</a></li>
+                      <li><a href="#">Contact</a></li>
+                   </ul>
                 </div>
-                <span class="navTrigger">
-                    <i></i>
-                    <i></i>
-                    <i></i>
-                </span>
-            </div>
-            
-        </nav>
+             </nav>
         <img src="images/food.jpg" width=100% >
         </header>
         
