@@ -89,6 +89,7 @@ nav.black ul {
 >>>>>>> parent of 25ede74... sdf
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 .box2{
     float:right; 
     width:50%;
@@ -110,6 +111,8 @@ nav.black ul {
     .form-control {
       width: 250px;
 =======
+=======
+>>>>>>> parent of d1e84bb... d
 nav ul li {
     display: inline-block;
     padding: 16px 40px;;
@@ -183,8 +186,15 @@ nav ul li a {
       }
     }
 <<<<<<< HEAD
+<<<<<<< HEAD
   }
 =======
+=======
+
+    .menu-icon {
+          display: block;
+    }
+>>>>>>> parent of d1e84bb... d
 }
 a:hover {
   color: yellow;  /*VAIHDA VÄRI*/
