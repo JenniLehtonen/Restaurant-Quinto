@@ -1,1 +1,70 @@
-<p>Hello</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+    <link rel="stylesheet" href="restaurantcss.css">
+    <meta charset="utf-8">
+    <title>Restaurant Quinto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>$(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+        });
+  });
+
+  // Scrolling Effect
+
+  $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+              $('nav').addClass('black');
+        }
+
+        else {
+              $('nav').removeClass('black');
+        }
+  })</script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+           <nav>
+              <div class="menu-icon">
+                 <i class="fa fa-bars fa-2x"></i>
+              </div>
+              <div class="logo">
+                 LOGO
+              </div>
+              <div class="menu">
+                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Reservations</a></li>
+                    <li><a href="#">Contact</a></li>
+                 </ul>
+              </div>
+           </nav>
+        </header>
+        <!--<div class="homePagePicture">
+            <img src="food.jpg" alt="food" width="100%">-->
+            <!--<div class="top-left">Top Left</div>
+            <div class="top-right">Top Right</div>-->
+            <div class="centered">WELCOME</div>
+
+         </div>
+    <div class="container">
+        
+        <h2>Here is some header</h2>
+         <p>Here is some description of the restaurant</p>
+         <p>And some other content</p>
+         <p>And a lot more <br> More <br> Not ending at all...<p> Keep on reading!</p>
+         <br>
+         <br>
+         <p>Content</p>
+         <footer><p>401E 34th St, NY 10016, US | +1 212-9827-0981 | restaurantquinto@quinto.com<br>©2020</p></footer>
+    </div>
+    
+</body>
+</html>
