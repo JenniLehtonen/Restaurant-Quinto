@@ -27,15 +27,18 @@ footer{
     transform: translate(-50%, -50%);
     color:white;
     font-size:8vw;
+    z-index:0;
 }
 
 
 /*NAVBAR CODE BEGINS*/
 header {
     width: 100%;
-    height: 100vh;
-    background: url(../images/food.jpg);
-    background-size: cover;
+    height: 60vh;
+    /*background: url(../images/food.jpg);
+    background-size: cover;*/
+    position:relative;
+    z-index: 1;
 }
 .content {
     width: 94%;
@@ -96,6 +99,7 @@ nav ul li a {
 }
 .menu{
   font-weight: 700;
+  font-size: 8vw;
 }
 @media(max-width: 786px) {
 
