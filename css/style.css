@@ -88,6 +88,7 @@ nav.black ul {
     background: #000;
 >>>>>>> parent of 25ede74... sdf
 }
+<<<<<<< HEAD
 .box2{
     float:right; 
     width:50%;
@@ -108,6 +109,47 @@ nav.black ul {
     position: relative;
     .form-control {
       width: 250px;
+=======
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+.menu{
+  font-weight: 700;
+  font-size: 8vw;
+}
+@media(max-width: 786px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #000;
+    }
+
+    nav.black ul {
+          background: #000;
+>>>>>>> parent of d1e84bb... d
     }
     .btn {
       border: 0;
@@ -140,4 +182,11 @@ nav.black ul {
         width: 300px;
       }
     }
+<<<<<<< HEAD
   }
+=======
+}
+a:hover {
+  color: yellow;  /*VAIHDA VÄRI*/
+}
+>>>>>>> parent of d1e84bb... d

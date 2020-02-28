@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,500i,700,800i" rel="stylesheet">
     <meta charset="utf-8">
     <title>Restaurant Quinto</title>
+<<<<<<< HEAD
     <script>$( '#topheader .navbar-nav a' ).on( 'click', function () {
         $( '#topheader .navbar-nav' ).find( 'li.active' ).removeClass( 'active' );
         $( this ).parent( 'li' ).addClass( 'active' );
@@ -75,6 +76,53 @@
                  </ul>
               </div>
            </nav>
+=======
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script>$(document).ready(function() {
+        $(".menu-icon").on("click", function() {
+              $("nav ul").toggleClass("showing");
+        });
+  });
+
+  // Scrolling Effect
+
+  $(window).on("scroll", function() {
+        if($(window).scrollTop()) {
+              $('nav').addClass('black');
+        }
+
+        else {
+              $('nav').removeClass('black');
+        }
+  })</script>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+         <nav class="nav">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">Your Logo</a>
+                </div>
+                <div id="mainListDiv" class="main_list">
+                    <ul class="navlinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <span class="navTrigger">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </span>
+            </div>
+            
+        </nav>
+        <img src="images/food.jpg" width=100% >
+>>>>>>> parent of d1e84bb... d
         </header>
         <!--<div class="homePagePicture">
             <img src="food.jpg" alt="food" width="100%">-->
