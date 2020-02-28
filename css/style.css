@@ -7,13 +7,14 @@ body{
 }
 footer{
     text-align:center;
-    background-color:rgba(59, 56, 56, 0.897);
+    background-color:rgba(0, 0, 0, 0.897);
     color:black;
     padding-top:1px;
     padding-bottom:1px;
     font-weight: 500;
     color: white;
     position:absolute;
+    width:100%;
 }
 .container{
     text-align: center;
