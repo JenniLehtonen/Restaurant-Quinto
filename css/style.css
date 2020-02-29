@@ -25,6 +25,43 @@ a{
     text-decoration: none;
 }
 
+
+/* Container needed to position the button. Adjust the width as needed */
+.menupicture {
+    position: relative;
+    width: 50%;
+  }
+  
+  /* Make the image responsive */
+  .menupicture img {
+    width: 50%;
+    height: 50%;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .menupicture .btn {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 2vw;
+    padding: 5% 8%;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+  
+  .menupicture .btn:hover {
+    background-color: black;
+  }
+
+
+
+
+
 /*NAVBAR CODE BEGINS*/
 a:hover {
   color: yellow;  /*VAIHDA VÄRI*/
