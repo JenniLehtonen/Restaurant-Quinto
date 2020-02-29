@@ -76,9 +76,11 @@ header {
     background: url(../images/food.jpg) no-repeat 50% 50%;
     background-size: cover;
 }
-
+.wrapper{
+    width:100%;
+}
 .content {
-    width: 94%;
+    width: 100%;
     margin: 4em auto;
     font-size: 20px;
     line-height: 30px;
