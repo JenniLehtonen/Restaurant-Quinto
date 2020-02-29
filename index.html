@@ -4,51 +4,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv='X-UA-Compatible' content='IE-edge'>
     <link rel="stylesheet" href="css/style.css">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <title>Restaurant Quinto</title>
-    <script>$(document).ready(function() {
-        $(".menu-icon").on("click", function() {
-              $("nav ul").toggleClass("showing");
-        });
-  });
-
-  // Scrolling Effect
-  $(window).on("scroll", function() {
-        if($(window).scrollTop()) {
-              $('nav').addClass('black');
-        }
-
-        else {
-              $('nav').removeClass('black');
-        }
-  })</script>
 </head>
 <body>
-    <div class="wrapper">
-       <header>
-          <nav>
-             <div class="menu-icon">
-                <i class="fa fa-bars fa-2x"></i>
-             </div>
-             <div class="logo">
-               <a href="index.html">QUINTO</a>
-             </div>
-             <div class="menu">
-                <ul>
-                   <li><a href="index.html">Home</a></li>
-                   <li><a href="menu.html">Menu</a></li>
-                   <li><a href="ourstory.html">Our Story</a></li>
-                   <li><a href="reservations.html">Reservations</a></li>
-                   <li><a href="contact.html">Contact</a></li>
-                </ul>
-             </div>
-          </nav>
-       </header>
+         <div class="bs-example">
+            <nav class="navbar navbar-expand-md navbar-light bg-dark">
+                <a href="#" class="navbar-brand">Brand</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+        
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#" class="nav-item nav-link">Menu</a>
+                        <a href="#" class="nav-item nav-link">Our Story</a>
+                        <a href="#" class="nav-item nav-link">Reservations</a>
+                        <a href="#" class="nav-item nav-link">Contact</a>
+                        <a href="#" class="nav-item nav-link disabled" tabindex="-1">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+         <img src="images/food.jpg" width="100%">
        <div class="content">
           <p>
             Welcome
@@ -67,7 +52,6 @@
           </div>
           </div>
        </div>
-       
        <footer><p> 401E 34th St, NY 10016, US | +1 212-9827-0981 | restaurantquinto@quinto.com<br>©2020 </p></footer>
  </body>
 </html>
