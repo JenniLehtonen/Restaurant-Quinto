@@ -2,10 +2,10 @@ body{
     margin: 0;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: lighter;
-    padding: 0;
     width: 100%;
 }
 footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align:center;
     background-color:rgba(0, 0, 0, 0.897);
     color:black;
@@ -17,58 +17,39 @@ footer{
     width:100%;
     font-size: small;
 }
-.container{
+.content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     width:100%;
+    padding-bottom:1%;
 }
-a{
-    color:white;
-    text-decoration: none;
-}
-
-
-/* Container needed to position the button. Adjust the width as needed */
-.menupicture {
-    position: relative;
-    width: 50%;
-  }
-  
-  /* Make the image responsive */
-  .menupicture img {
-    width: 50%;
-    height: 50%;
-  }
-  
-  /* Style the button and place it in the middle of the container/image */
-  .menupicture .btn {
-    position: absolute;
-    top: 50%;
-    left: 25%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
-    font-size: 2vw;
-    padding: 5% 8%;
-    border: none;
-    cursor: pointer;
-    border-radius: 20%;
-  }
-  
-  .menupicture .btn:hover {
-    background-color: black;
-  }
-
 img{
     content:center;
 }
-
-.navbar-nav{
-    color:white;
-}
+.container {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size:6vw;
+  }
 
 /*NAVBAR CODE BEGINS*/
 a:hover {
   color: yellow;  /*VAIHDA VÄRI*/
+}
+.navbar.navbar-expand-md.navbar-light.bg-dark{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:black;
+    color:white;
+}
+.navbar-item.nav-link{
+    color:white;
 }
 
