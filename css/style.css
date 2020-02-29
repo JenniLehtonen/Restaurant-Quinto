@@ -51,14 +51,16 @@ a{
     padding: 5% 8%;
     border: none;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 20%;
   }
   
   .menupicture .btn:hover {
     background-color: black;
   }
 
-
+img{
+    content:center;
+}
 
 
 
