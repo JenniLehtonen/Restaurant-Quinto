@@ -20,10 +20,12 @@ footer{
     text-align: center;
     width:100%;
 }
-
+a{
+    color:white;
+    text-decoration: none;
+}
 
 /*NAVBAR CODE BEGINS*/
-
 a:hover {
   color: yellow;  /*VAIHDA VÄRI*/
 }
