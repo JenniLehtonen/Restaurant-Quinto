@@ -21,11 +21,15 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     width:100%;
-    padding:2%;
+    padding-top:2%;
+    padding-right:5%;
+    padding-left:5%;
+    padding-bottom:2%;
 }
 .navbar-brand{
     color:white;
 }
+
 .navbar.navbar-expand-md{
     background-color: black;
     color:white;
@@ -34,7 +38,7 @@ footer{
     content:center;
     padding:1%;
 }
-#a{
+a{
     color:white;
     float:right;
 }
@@ -46,14 +50,47 @@ footer{
     font-size:6vw;
   }
 
+
+
+
+  .container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+      width:32%;
+      height:33%;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 1vw 1.5vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    color:white;
+    background-color: rgb(58, 57, 57);
+  }
+
 /*NAVBAR CODE BEGINS*/
-a:hover {
-  color: yellow;  /*VAIHDA VÄRI*/
-}
-.navbar.navbar-expand-md.navbar-light.bg-dark{
+.mb-1.navbar.navbar-expand-lg.navbar-dark.info-color{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:black;
     color:white;
+}
 }
 .navbar-item.nav-link{
     color:white;
