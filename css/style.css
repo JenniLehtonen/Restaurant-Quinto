@@ -15,33 +15,30 @@ footer{
     color: white;
     position:absolute;
     width:100%;
-    font-size: small;
 }
 .content{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     width:100%;
     padding-top:2%;
-    padding-right:5%;
-    padding-left:5%;
+    padding-right:10%;
+    padding-left:10%;
     padding-bottom:2%;
 }
-.navbar-brand{
+p{
+    text-align:start;
+}
+#a{
     color:white;
 }
-
-.navbar.navbar-expand-md{
-    background-color: black;
-    color:white;
+#a:hover{
+    color:rgb(190, 190, 190);
 }
 #id{
     content:center;
     padding:1%;
 }
-a{
-    color:white;
-    float:right;
-}
+
   .container {
     position: relative;
     width: 100%;
@@ -60,7 +57,7 @@ a{
     left: 34%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgba(85, 85, 85, 0.836);
+    background-color: rgba(143, 143, 143, 0.836);
     color: white;
     font-size: 16px;
     padding: 1vw 1.5vw;
@@ -71,10 +68,17 @@ a{
   
   .container .btn:hover {
     color:white;
-    background-color: rgb(58, 57, 57);
+    background-color: rgb(0, 0, 0);
   }
 
 /*NAVBAR CODE BEGINS*/
+.navbar-brand{
+    color:white;
+}
+.navbar.navbar-expand-md{
+    background-color: black;
+    color:white;
+}
 .mb-1.navbar.navbar-expand-lg.navbar-dark.info-color{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:black;
