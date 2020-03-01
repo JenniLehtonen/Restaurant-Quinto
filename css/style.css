@@ -90,6 +90,8 @@ a{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color:black;
     color:white;
+    padding-bottom:1%;
+    padding-top:1%;
 }
 }
 .navbar-item.nav-link{
