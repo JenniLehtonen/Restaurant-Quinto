@@ -42,17 +42,6 @@ a{
     color:white;
     float:right;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size:6vw;
-  }
-
-
-
-
   .container {
     position: relative;
     width: 100%;
@@ -60,7 +49,7 @@ a{
   
   /* Make the image responsive */
   .container img {
-      width:32%;
+      width:35%;
       height:33%;
   }
   
@@ -68,16 +57,16 @@ a{
   .container .btn {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 34%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
+    background-color: rgba(85, 85, 85, 0.836);
     color: white;
     font-size: 16px;
     padding: 1vw 1.5vw;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 1%;
   }
   
   .container .btn:hover {
