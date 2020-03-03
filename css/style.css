@@ -86,6 +86,10 @@ hr{
   font-size:1.8vw;
   font-family:'Open Sans Condensed', sans-serif, verdana;
 }
+.menu-dish-description{
+  text-align:center;
+  font-size:1.6vw;
+}
   
 /*NAVBAR CODE BEGINS*/
 .navbar-brand{
