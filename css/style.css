@@ -1,23 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap');
 body{
     margin: 0;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
     font-weight: lighter;
     width: 100%;
 }
 footer{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align:center;
     background-color:rgba(0, 0, 0, 0.897);
     color:black;
     padding-top:1%;
     padding-bottom:1%;
     font-weight: 500;
+    font-size: 1.2vw;
     color: white;
     position:absolute;
     width:100%;
+
 }
 .content{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align: center;
     width:100%;
     padding-top:3%;
@@ -27,7 +30,8 @@ footer{
 }
 p{
     text-align:start;
-    font-size:1.5vw;
+    font-size:1.6vw;
+    font-weight:500;
 }
 #a{
     color:white;
@@ -59,25 +63,28 @@ p{
     -ms-transform: translate(-50%, -50%);
     background-color: rgba(143, 143, 143, 0.836);
     color: white;
-    font-size: 16px;
+    font-size: 1.7vw;
     padding: 1vw 1.5vw;
     border: none;
     cursor: pointer;
     border-radius: 1%;
   }
   
-  .container .btn:hover {
+.container .btn:hover {
     color:white;
     background-color: rgb(0, 0, 0);
   }
-  hr{
+hr{
     width:50%;
   }
 .menu-dish-heading{
   font-size:2.7vw;
+  font-family: 'Open Sans Condensed', sans-serif, verdana;
+  font-weight: 500;
 }
 .menu-dish{
-  font-size:1.5vw;
+  font-size:1.8vw;
+  font-family:'Open Sans Condensed', sans-serif, verdana;
 }
   
 /*NAVBAR CODE BEGINS*/
@@ -89,7 +96,8 @@ p{
     color:white;
 }
 .mb-1.navbar.navbar-expand-lg.navbar-dark.info-color{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
+    font-size:1.6vw;
     background-color:black;
     color:white;
     padding-bottom:1%;
