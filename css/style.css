@@ -70,6 +70,10 @@ p{
     color:white;
     background-color: rgb(0, 0, 0);
   }
+
+  hr{
+    width:60%;
+  }
 /*MENU RESPONSIVE COLUMNS*/
 *{
     box-sizing: border-box;
