@@ -2,7 +2,6 @@
 body{
     margin: 0;
     font-family: 'Open Sans Condensed', sans-serif, verdana;
-    font-weight: lighter;
     width: 100%;
 }
 footer{
@@ -30,7 +29,7 @@ footer{
 }
 p{
     text-align:start;
-    font-size:1.6vw;
+    font-size:1.8vw;
     font-weight:500;
 }
 #a{
@@ -94,6 +93,7 @@ hr{
 /*NAVBAR CODE BEGINS*/
 .navbar-brand{
     color:white;
+    font-size:1.8vw;
 }
 .navbar.navbar-expand-md{
     background-color: black;
@@ -101,11 +101,14 @@ hr{
 }
 .mb-1.navbar.navbar-expand-lg.navbar-dark.info-color{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
-    font-size:1.6vw;
+    font-size:1.8vw;
     background-color:black;
     color:white;
     padding-bottom:1%;
     padding-top:1%;
+}
+.collapse.navbar-collapse{
+  font-size:3vw;
 }
 .navbar-item.nav-link{
     color:white;
