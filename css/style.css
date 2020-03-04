@@ -51,7 +51,26 @@ p{
     position: relative;
     width: 100%;
   }
+  /*BACK TO TOP BUTTON*/
+  #myBtn {
+    display: none;
+    position: fixed;
+    bottom: 5%;
+    right: 4%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color:rgba(143, 143, 143, 0.973);
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+    border-radius: 6%;
+  }
   
+  #myBtn:hover {
+    background-color: rgb(3, 3, 3);
+  }
   /* Make the image responsive */
 .container img {
       width:35%;

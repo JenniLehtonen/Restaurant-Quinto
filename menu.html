@@ -13,8 +13,10 @@
   <!--social media icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Restaurant Quinto</title>
+  
 </head>
 <body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
   <div id="page-container">
   <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
     <a class="navbar-brand" href="index.html">QUINTO</a>
@@ -83,6 +85,27 @@
              <p class="menu-dish-description">5,50$</p>
        </div>
   <footer><h6>401E 34th St, NY 10016, US | +1 212-9827-0981 | restaurantquinto@quinto.com<br>©2020 Quinto</h6></footer>
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 400 || document.documentElement.scrollTop > 400) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
 </div>
 </body>
 </html>
