@@ -47,13 +47,13 @@ p{
     content:center;
     padding:1%;
 }
-  .container {
+.container {
     position: relative;
     width: 100%;
   }
   
   /* Make the image responsive */
-  .container img {
+.container img {
       width:35%;
       height:33%;
   }
