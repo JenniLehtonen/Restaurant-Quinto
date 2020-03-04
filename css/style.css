@@ -38,11 +38,12 @@ p{
     font-weight:500;
 }
 
-#id{
+#homepictures{
     content:center;
     padding:1%;
 }
-.container {
+
+.container{
     position: relative;
     width: 100%;
   }
@@ -68,15 +69,15 @@ p{
   }
   /* Make the image responsive */
 .container img {
-      width:35%;
-      height:33%;
+      width:40%;
+      height:35%;
   }
   
   /* Style the button and place it in the middle of the container/image */
 .container .btn {
     position: absolute;
     top: 50%;
-    left: 34%;
+    left: 31%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: rgba(143, 143, 143, 0.836);
