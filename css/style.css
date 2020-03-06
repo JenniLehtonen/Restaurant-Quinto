@@ -17,8 +17,14 @@ body{
     padding-left:10%;
     padding-bottom:12rem;
 }
+#ourstoryP{
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
 p{
-    text-align:center;
+    text-align:start;
     font-size:1.2rem;
     font-weight:500;
 }
