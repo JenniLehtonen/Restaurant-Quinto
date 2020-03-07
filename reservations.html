@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv='X-UA-Compatible' content='IE-edge'>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!--social media icons-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Restaurant Quinto</title>
+  
+</head>
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+  <div id="page-container">
+  <nav class="mb-1 navbar navbar-expand-lg navbar-dark info-color">
+    <a class="navbar-brand" href="index.html">QUINTO</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-4"
+    aria-controls="navbarSupportedContent-4" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+   <div class="collapse navbar-collapse" id="navbarSupportedContent-4">
+      <ul class="navbar-nav ml-auto">
+        <li><a id="a" href="index.html" class="nav-item nav-link">Home</a></li>
+        <li><a id="a" href="menu.html" class="nav-item nav-link">Menu</a></li>
+        <li><a id="a" href="ourstory.html" class="nav-item nav-link">Our Story</a></li>
+        <li><a id="a" href="reservations.html" class="nav-item nav-link">Reservations</a></li>
+        <li><a id="a" href="contact.html" class="nav-item nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+    <img src="menuheader.jpg" alt="menu" width="100%" >
+      <div class="content">  
+        <h2>Book your table!</h2>
+        <form action="/action_page.php">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" required><br><br>
+            <label for="guests">Number of guests:</label>
+            <select id="guests" name="guests">
+              <option value="1person">1 person</option>
+              <option value="2people">2 people</option>
+              <option value="3people">3 people</option>
+              <option value="4people">4 people</option>
+              <option value="5people">5 people</option>
+              <option value="6people">6 people</option>
+              <option value="7people">7 people</option>
+              <option value="8+people">8+ people</option>
+            </select><br>
+            <input type="submit" value="Submit">
+          </form> 
+      </div>
+  <footer>
+      <div class="row">
+        <div class="column2">
+          <h2>RESTAURANT QUINTO</h2>
+        </div>
+        <div class="column">
+          <h2>ADDRESS</h2>
+          <p>401E 34th St, NY 10016, US</p>
+        </div>
+        <div class="column">
+          <h2>CONTACTS</h2>
+          <p>Email:restaurantquinto@quinto.com<br>Phone: 792 634 2395</p>
+        </div>
+        <div class="column">
+          <h2>OPENING HOURS</h2>
+          <p>Monday - Sunday 12AM to 11PM</p>
+        </div>
+      </div>
+  </footer>
+</div>
+</body>
+</html>
