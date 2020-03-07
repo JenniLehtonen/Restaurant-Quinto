@@ -60,6 +60,12 @@ footer{
   height:10rem;
   background-color:rgba(0, 0, 0, 0.897);
 }
+.column p{
+  text-align:center;
+}
+.column2 p{
+  text-align:center;
+}
 /* Clear floats after the columns */
 .row:after {
   content: "";
