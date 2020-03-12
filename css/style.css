@@ -7,6 +7,7 @@ body{
 #page-container{
   position:relative;
   min-height:100vh;
+  width:100%;
 }
 .content{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
@@ -32,14 +33,12 @@ p{
 footer{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
   text-align:center;
-  color:black;
   font-weight: 500;
-  font-size: 1.2vw;
   color: white;
   position:absolute;
   bottom:0;
   padding-top:1%;
-  height:10rem;
+  height:8rem;
   width:100%;
 }
 * {
@@ -49,22 +48,28 @@ footer{
 .column2{
   float: left;
   width: 25%;
-  padding-top: 4.5%;
-  height:10rem;
+  padding-top:3rem;
+  height:8rem;
   background-color:rgba(0, 0, 0, 0.897);
+  margin:0;
 }
 .column {
   float: left;
   width: 25%;
-  padding-top: 2%;
-  height:10rem;
+  padding-top: 1.2rem;
+  height:8rem;
   background-color:rgba(0, 0, 0, 0.897);
+  margin:0;
 }
 .column p{
   text-align:center;
+  font-size:1rem;
 }
 .column2 p{
   text-align:center;
+}
+.row h2{
+  font-size:1.5rem;
 }
 /* Clear floats after the columns */
 .row:after {
@@ -73,7 +78,7 @@ footer{
   clear: both;
 }
 /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 1050px) {
   .column {
     width: 100%;
   }
@@ -85,13 +90,13 @@ footer{
   #myBtn {
     display: none;
     position: fixed;
-    bottom: 10%;
-    right: 5%;
+    bottom: 11%;
+    right: 2%;
     z-index: 99;
     font-size: 18px;
     border: none;
     outline: none;
-    background-color:rgba(143, 143, 143, 0.973);
+    background-color:#545454;
     color: white;
     cursor: pointer;
     padding: 1%;
@@ -121,7 +126,7 @@ footer{
     left: 31.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgba(143, 143, 143, 0.836);
+    background-color: #545454e1;
     color: white;
     font-size: 2.1vw;
     padding: 1vw 1.5vw;
@@ -135,7 +140,7 @@ footer{
     left: 68.5%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: rgba(143, 143, 143, 0.836);
+    background-color: #545454e1;
     color: white;
     font-size: 2.1vw;
     padding: 1vw 1.5vw;
