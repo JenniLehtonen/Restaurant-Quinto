@@ -41,34 +41,34 @@ p{
 .flex-about{
   display: flex;
   flex-wrap: wrap;
-  background-color:rgb(126, 108, 50);
+  background-color:white;
   justify-content: center;
   width:100%;
   padding-right:8%;
   padding-left:8%;
   padding-top:3%;
-  color:white;
+  color:black;
 }
 .ourstorybutton{
-  background-color:rgb(126, 108, 50);
+  background-color:white;
   padding-top:1%;
   padding-bottom:3%;
-  margin:0;
 }
 .numbers{
   display: flex;
   flex-wrap: wrap;
-  background-color:rgb(126, 108, 50);
+  background-color:white;
   justify-content: center;
-  color:white;
+  color:black;
+  margin:0;
 }
 .numbers > div {
   padding-left:4%;
   padding-right:4%;
   padding-top:3%;
-  background-color:rgb(126, 108, 50);
+  background-color:white;
   text-align:center;
-  
+  margin:0;
 }
 .numbers > div > p{
   text-align:center;
@@ -81,7 +81,7 @@ p{
 .flex-reservation{
   display: flex;
   flex-wrap: wrap;
-  background-color:white;
+  background-color:black;
   justify-content: center;
   width:100%;
   padding-top:3%;
@@ -91,12 +91,24 @@ p{
 .flex-menu{
   display: flex;
   flex-wrap: wrap;
-  background-color:pink;
+  background-color:white;
   justify-content: center;
   width:100%;
   padding-top:3%;
   padding-bottom:3%;
-  color:white;
+  color:black;
+}
+.homepagebutton{
+  background-color: #757575e1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 /*RESERVATIONS PAGE BUTTON*/
 .button{
