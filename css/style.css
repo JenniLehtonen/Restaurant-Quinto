@@ -29,6 +29,22 @@ p{
     font-size:1.2rem;
     font-weight:500;
 }
+/*RESERVATIONS-PAGE BUTTON*/
+.button{
+  background-color: #545454e1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button:hover{
+  background-color:black;
+}
 /*FOOTER CODES*/
 footer{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
@@ -101,7 +117,6 @@ footer{
 .fa-snapchat-ghost:hover{
   color:#fffc00;
 }
-/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1050px) {
   .flex{
     width:100%;
