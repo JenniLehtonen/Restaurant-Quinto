@@ -187,6 +187,10 @@ hr{
   width:25%;
   text-align:center;
 }
+.flex-container > div > p{
+  text-align:center;
+
+}
 @media only screen and (max-width: 1050px) {
   .flex-container > div {
     width:100%;
