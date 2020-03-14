@@ -13,10 +13,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align: center;
     width:100%;
-    padding-top:3%;
-    padding-right:8%;
-    padding-left:8%;
-    padding-bottom:12rem;
+    padding-bottom:9rem;
 }
 #ourstoryP{
   text-align: center;
@@ -25,11 +22,83 @@ body{
   padding-bottom: 1%;
 }
 p{
-    text-align:start;
     font-size:1.2rem;
     font-weight:500;
 }
-/*RESERVATIONS-PAGE BUTTON*/
+/*CONTENT IN HOME PAGE*/
+.flex-welcome{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:black;
+  justify-content: center;
+  width:100%;
+  padding-right:8%;
+  padding-left:8%;
+  padding-top:3%;
+  padding-bottom:3%;
+  color:white;
+}
+.flex-about{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(126, 108, 50);
+  justify-content: center;
+  width:100%;
+  padding-right:8%;
+  padding-left:8%;
+  padding-top:3%;
+  color:white;
+}
+.ourstorybutton{
+  background-color:rgb(126, 108, 50);
+  padding-top:1%;
+  padding-bottom:3%;
+  margin:0;
+}
+.numbers{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(126, 108, 50);
+  justify-content: center;
+  color:white;
+}
+.numbers > div {
+  padding-left:4%;
+  padding-right:4%;
+  padding-top:3%;
+  background-color:rgb(126, 108, 50);
+  text-align:center;
+  
+}
+.numbers > div > p{
+  text-align:center;
+  font-weight: 600;
+}
+.numbers > div > h1{
+  text-align:center;
+  font-weight: 600;
+}
+.flex-reservation{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:white;
+  justify-content: center;
+  width:100%;
+  padding-top:3%;
+  padding-bottom:3%;
+  color:white;
+}
+.flex-menu{
+  display: flex;
+  flex-wrap: wrap;
+  background-color:pink;
+  justify-content: center;
+  width:100%;
+  padding-top:3%;
+  padding-bottom:3%;
+  color:white;
+}
+/*RESERVATIONS PAGE BUTTON*/
 .button{
   background-color: #545454e1;
   border: none;
@@ -64,7 +133,6 @@ footer{
 }
 
 .flex-container > div {
-  background-color: black;
   font-size: 1.2rem;
   padding-top:1.2rem;
   background-color:black;
@@ -74,7 +142,6 @@ footer{
 }
 .flex-container > div > p{
   text-align:center;
-
 }
 @media only screen and (max-width: 1050px) {
   .flex-container > div {
@@ -215,7 +282,7 @@ hr{
   font-size:1.2rem;
 }
 #a:hover{
-  color:rgb(190, 190, 190);
+  color:rgb(170, 162, 135);
 }
 .navbar.navbar-expand-md{
     background-color: black;
