@@ -48,8 +48,16 @@ p{
     width:100%;
     background-color:black;
   }
-  .flexpicture1 img{
-    display:none;
+  .flex-welcome h1{
+    font-size:1.4rem;
+  }
+  .flex-welcome p{
+    font-size:1.2rem;
+  }
+  .flexpicture1{
+    width:100%;
+    background-color:black;
+    justify-content: center;
   }
 }
 .flexpicture1{
@@ -122,6 +130,12 @@ p{
     width:100%;
     background-color:black;
   }
+  .flex-about h1{
+    font-size:1.4rem;
+  }
+  .flex-about p{
+    font-size:1.2rem;
+  }
   .flexpicture2{
     display:none;
   }
@@ -153,15 +167,6 @@ p{
   flex-wrap: wrap;
   padding-bottom:0.25rem;
 }
-.flexabouttext{
-  width:40%;
-  padding-right:8%;
-  padding-left:8%;
-  padding-top:3%;
-  padding-bottom:3%;
-  background-color:black;
-  color:white;
-}
 .flexpicture3{
   width:60%;
   float:right;
@@ -170,27 +175,30 @@ p{
 .flex-menu{
   display: flex;
   flex-wrap: wrap;
+  background-color:black;
   justify-content: center;
-  width:100%;
-  color:black;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  width:40%;
+  padding-right:8%;
+  padding-left:8%;
+  padding-top:3%;
+  padding-bottom:3%;
+  color:white;
 }
 .flex-menu img{
   width: 100%;
 }
 @media only screen and (max-width: 1050px) {
-  .flexabouttext {
+  .flex-menu {
     width:100%;
-    background-color:black;
   }
   .flexpicture3 img{
     display:none;
   }
-  .homepagemenu{
-    display:none;
+  .flex-menu h1{
+    font-size:1.4rem;
+  }
+  .flex-menu p{
+    font-size:1.2rem;
   }
 }
 .homepagebutton{
@@ -259,6 +267,9 @@ footer{
   .flex-container > div {
     width:100%;
     background-color:black;
+  }
+.flex-container h2{
+    font-size:1.4rem;
   }
 }
 .socialMedia{
