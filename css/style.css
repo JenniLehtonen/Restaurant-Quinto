@@ -13,7 +13,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align: center;
     width:100%;
-    padding-bottom:9.0rem;
+    padding-bottom:9.80rem;
     padding-top:0.25rem;
 }
 #ourstoryP{
@@ -291,6 +291,8 @@ footer{
 .socialMedia{
   background-color:black;
   text-align:center;
+  color:white;
+  font-weight:550;
 }
 .fa {
   padding-bottom:1.2rem;
