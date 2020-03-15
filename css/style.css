@@ -54,10 +54,8 @@ p{
   .flex-welcome p{
     font-size:1.2rem;
   }
-  .flexpicture1{
-    width:100%;
-    background-color:black;
-    justify-content: center;
+  .flexpicture1 img{
+    display:none;
   }
 }
 .flexpicture1{
