@@ -14,6 +14,7 @@ body{
     text-align: center;
     width:100%;
     padding-bottom:9.0rem;
+    padding-top:0.25rem;
 }
 #ourstoryP{
   text-align: center;
@@ -26,33 +27,61 @@ p{
     font-weight:500;
 }
 /*CONTENT IN HOME PAGE*/
+.parentflexbox1{
+  display: flex;
+  flex-wrap: wrap;
+}
 .flex-welcome{
   display: flex;
   flex-wrap: wrap;
   background-color:black;
   justify-content: center;
-  width:100%;
+  width:40%;
   padding-right:8%;
   padding-left:8%;
   padding-top:3%;
   padding-bottom:3%;
   color:white;
 }
+@media only screen and (max-width: 1050px) {
+  .flex-welcome {
+    width:100%;
+    background-color:black;
+  }
+  .flexpicture1 img{
+    display:none;
+  }
+}
+.flexpicture1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:60%;
+  float:right;
+  padding-left:0.25rem;
+}
+.parentflexbox2{
+  display: flex;
+  flex-wrap: wrap;
+}
 .flex-about{
   display: flex;
   flex-wrap: wrap;
   background-color:white;
   justify-content: center;
-  width:100%;
-  padding-right:8%;
-  padding-left:8%;
+  width:60%;
+  float:right;
+  padding-right:2%;
+  padding-left:2%;
   padding-top:3%;
   color:black;
+  padding-right:0.25rem;
 }
 .ourstorybutton{
   background-color:white;
   padding-top:1%;
   padding-bottom:3%;
+  float:right;
 }
 .numbers{
   display: flex;
@@ -78,6 +107,23 @@ p{
   text-align:center;
   font-weight: 600;
 }
+.flexpicture2{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width:40%;
+  float:left;
+  padding-top:0.25rem;
+}
+@media only screen and (max-width: 1050px) {
+  .flex-about {
+    width:100%;
+    background-color:white;
+  }
+  .flexpicture2{
+    display:none;
+  }
+}
 .flex-reservation{
   display: flex;
   flex-wrap: wrap;
@@ -87,6 +133,8 @@ p{
   background:no-repeat;
   background-size:100%;
   position:relative;
+  padding-bottom:1%;
+  padding-top:0.25rem;
 }
 .flex-reservation .homepagebutton{
   position: absolute;
