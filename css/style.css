@@ -148,6 +148,25 @@ p{
 .flex-reservation img{
   width: 100%;
 }
+.parentflexbox3{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom:0.25rem;
+}
+.flexabouttext{
+  width:40%;
+  padding-right:8%;
+  padding-left:8%;
+  padding-top:3%;
+  padding-bottom:3%;
+  background-color:black;
+  color:white;
+}
+.flexpicture3{
+  width:60%;
+  float:right;
+  padding-left:0.25rem;
+}
 .flex-menu{
   display: flex;
   flex-wrap: wrap;
@@ -188,6 +207,18 @@ p{
   left:50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+}
+@media only screen and (max-width: 1050px) {
+  .flexabouttext {
+    width:100%;
+    background-color:black;
+  }
+  .flexpicture3 img{
+    display:none;
+  }
+  .homepagemenu{
+    display:none;
+  }
 }
 .homepagebutton{
   background-color: #757575f1;
