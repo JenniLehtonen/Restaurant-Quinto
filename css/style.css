@@ -13,7 +13,7 @@ body{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align: center;
     width:100%;
-    padding-bottom:9.80rem;
+    padding-bottom:9.15rem;
     padding-top:0.25rem;
 }
 .content{
@@ -53,6 +53,9 @@ p{
   color:white;
 }
 @media only screen and (max-width: 1050px) {
+  .indexcontent{
+    padding-bottom:9.75rem;
+  }
   .flex-welcome {
     width:100%;
     background-color:black;
