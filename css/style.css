@@ -9,12 +9,21 @@ body{
   min-height:100vh;
   width:100%;
 }
-.content{
+.indexcontent{
     font-family: 'Open Sans Condensed', sans-serif, verdana;
     text-align: center;
     width:100%;
     padding-bottom:9.80rem;
     padding-top:0.25rem;
+}
+.content{
+  font-family: 'Open Sans Condensed', sans-serif, verdana;
+  text-align: center;
+  width:100%;
+  padding-bottom:10.20rem;
+  padding-top:1rem;
+  padding-right:8%;
+  padding-left:8%;
 }
 #ourstoryP{
   text-align: center;
@@ -124,6 +133,9 @@ p{
   padding-right:0.25rem;
 }
 @media only screen and (max-width: 1050px) {
+  .parentflexbox2{
+    padding-top:0.10rem;
+  }
   .flex-about {
     width:100%;
     background-color:black;
@@ -186,6 +198,10 @@ p{
   width: 100%;
 }
 @media only screen and (max-width: 1050px) {
+  .flex-reservation{
+    padding-top:0.15rem;
+    padding-bottom:0.15rem;
+  }
   .flex-menu {
     width:100%;
   }
