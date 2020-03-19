@@ -132,7 +132,15 @@ p{
   float:left;
   padding-right:0.25rem;
 }
+#picturemobile{
+  display:none;
+}
 @media only screen and (max-width: 1050px) {
+  #picturemobile{
+    display:block;
+    width:100%;
+    padding-bottom:0.15rem;
+  }
   .parentflexbox2{
     padding-top:0.10rem;
   }
