@@ -19,15 +19,13 @@ body{
 .ourstorycontent{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
   text-align: center;
-  padding-bottom:10.20rem;
-  padding-top:1rem;
   padding-right:8%;
   padding-left:8%; 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   width:60%;
-  color:black;
+  color:white;
 }
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
@@ -47,7 +45,9 @@ body{
 .parentflexboxourstory{
   display: flex;
   flex-wrap: wrap;
+  padding-top:2.2rem;
   padding-bottom:10.20rem;
+  background-color:black;
 }
 .flexpictureourstorypage{
   display: flex;
@@ -55,7 +55,12 @@ body{
   justify-content: center;
   width:30%;
   float:right;
-  margin:2%;
+  background-color:white;
+}
+.flexpictureourstorypage img{
+  padding-top:20%;
+  height:50%;
+  width:50%;
 }
 p{
     font-size:1.2rem;
