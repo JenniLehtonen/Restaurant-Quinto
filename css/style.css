@@ -83,12 +83,12 @@ p{
   }
   .flexpictureourstorypage{
     width:100%;
-    margin:1%;
+    margin:3%;
   }
   .flexpictureourstorypage img{
     display:block;
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
   }
   .indexcontent{
     padding-bottom:9.75rem;
