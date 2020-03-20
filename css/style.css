@@ -431,7 +431,10 @@ hr{
   text-align:center;
   font-size:1.4rem;
 }
-
+/*RESEVATIONS FORM*/
+label{
+  padding-top:1%;
+}
 /*NAVBAR CODE BEGINS*/
 #a{
   color:white;
