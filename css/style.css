@@ -58,6 +58,7 @@ body{
   width:30%;
   float:right;
   background-color:black;
+  margin:3%;
 }
 p{
     font-size:1.2rem;
@@ -94,7 +95,6 @@ p{
     display:block;
     width:80%;
     height:80%;
-    margin:3%;
   }
   .indexcontent{
     padding-bottom:9.75rem;
