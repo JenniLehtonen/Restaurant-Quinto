@@ -55,12 +55,6 @@ body{
   justify-content: center;
   width:30%;
   float:right;
-  background-color:white;
-}
-.flexpictureourstorypage img{
-  padding-top:20%;
-  height:50%;
-  width:50%;
 }
 p{
     font-size:1.2rem;
@@ -89,6 +83,7 @@ p{
   }
   .flexpictureourstorypage{
     width:100%;
+    margin:1%;
   }
   .flexpictureourstorypage img{
     display:block;
