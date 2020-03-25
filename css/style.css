@@ -9,36 +9,7 @@ body{
   min-height:100vh;
   width:100%;
 }
-.indexcontent{
-    font-family: 'Open Sans Condensed', sans-serif, verdana;
-    text-align: center;
-    width:100%;
-    padding-bottom:9.15rem;
-    padding-top:0.25rem;
-}
-.ourstorycontent{
-  font-family: 'Open Sans Condensed', sans-serif, verdana;
-  text-align: center;
-  width:100%;
-  padding-bottom:9.45rem;
-  padding-top:0.25rem;
-  background-color:black;
-}
-.parentflexboxourstory{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:white;
-}
-.ourstorytext{
-  background-color:white;
-  justify-content: center;
-  width:60%;
-  text-align: center;
-  padding-right:8%;
-  padding-left:8%;
-  color:black;
-  padding-top:2rem;
-}
+
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
   text-align: center;
@@ -46,298 +17,8 @@ body{
   padding-bottom:9.15rem;
   padding-top:0.25rem;
 }
-.flexcontentmenu{
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom:10.15rem;
-  padding-top:2rem;
-}
-.flexboxstarters{
-  width:50%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left:3%;
-}
-.flexboxsalads{
-  width:50%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.flexboxseafood{
-  width:50%;
-  display: flex;
-  flex-wrap: wrap;
-  padding-left:3%;
-}
-.flexboxsteakschops{
-  width:50%;
-  display: flex;
-  flex-wrap: wrap;
-}
-.flexboxpastas{
-  width:50%;
-  display: flex;
-  flex-wrap:wrap;
-  padding-left:3%;
-}
-.flexboxdesserts{
-  width:50%;
-  display: flex;
-  flex-wrap: wrap;
-}
-#ourstoryP{
-  text-align: center;
-  font-weight: 600;
-  padding-top: 1%;
-  padding-bottom: 1%;
-}
-.flexpictureourstorypage{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width:30%;
-  float:right;
-  margin:3%;
-}
 p{
     font-size:1.2rem;
-}
-/*CONTENT IN HOME PAGE*/
-.parentflexbox1{
-  display: flex;
-  flex-wrap: wrap;
-}
-.flex-welcome{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:black;
-  justify-content: center;
-  width:40%;
-  padding-right:8%;
-  padding-left:8%;
-  padding-top:3%;
-  padding-bottom:3%;
-  color:white;
-}
-@media only screen and (max-width: 1050px) {
-  .ourstorytext{
-    width:100%;
-  }
-  .flexpictureourstorypage{
-    width:100%;
-  }
-  .ourstorycontent{
-    padding-bottom:10.02rem;
-  }
-  .flexpictureourstorypage img{
-    display:block;
-    width:90%;
-    height:90%;
-  }
-  .indexcontent{
-    padding-bottom:9.75rem;
-  }
-  .flex-welcome {
-    width:100%;
-    background-color:black;
-  }
-  .flex-welcome h1{
-    font-size:1.4rem;
-  }
-  .flex-welcome p{
-    font-size:1.2rem;
-  }
-  .flexpicture1 img{
-    display:none;
-  }
-}
-.flexpicture1{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width:60%;
-  float:right;
-  padding-left:0.25rem;
-}
-.parentflexbox2{
-  display: flex;
-  flex-wrap: wrap;
-  padding-top:0.25rem;
-}
-.flex-about{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:black;
-  justify-content: center;
-  width:60%;
-  float:right;
-  padding-right:8%;
-  padding-left:8%;
-  padding-top:3%;
-  padding-bottom:3%;
-  color:white;
-}
-.ourstorybutton{
-  background-color:black;
-  padding-top:1%;
-  padding-bottom:3%;
-  float:right;
-}
-.numbers{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:black;
-  justify-content: center;
-  color:white;
-  margin:0;
-}
-.numbers > div {
-  padding-left:4%;
-  padding-right:4%;
-  padding-top:3%;
-  background-color:black;
-  text-align:center;
-  margin:0;
-}
-.numbers > div > p{
-  text-align:center;
-  font-weight: 600;
-}
-.numbers > div > h1{
-  text-align:center;
-  font-weight: 600;
-}
-.flexpicture2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width:40%;
-  float:left;
-  padding-right:0.25rem;
-}
-#picturemobile{
-  display:none;
-}
-@media only screen and (max-width: 1050px) {
-  #picturemobile{
-    display:block;
-    width:100%;
-    padding-bottom:0.15rem;
-  }
-  .parentflexbox2{
-    padding-top:0.10rem;
-  }
-  .flex-about {
-    width:100%;
-    background-color:black;
-  }
-  .flex-about h1{
-    font-size:1.4rem;
-  }
-  .flex-about p{
-    font-size:1.2rem;
-  }
-  .flexpicture2{
-    display:none;
-  }
-}
-.flex-reservation{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  width:100%;
-  color:white;
-  background:no-repeat;
-  background-size:100%;
-  position:relative;
-  padding-top:0.25rem;
-  padding-bottom:0.25rem;
-}
-.flex-reservation .homepagebutton{
-  position: absolute;
-  top:50%;
-  left:50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-}
-.flex-reservation img{
-  width: 100%;
-}
-.parentflexbox3{
-  display: flex;
-  flex-wrap: wrap;
-  padding-bottom:0.25rem;
-}
-.flexpicture3{
-  width:60%;
-  float:right;
-  padding-left:0.25rem;
-}
-.flex-menu{
-  display: flex;
-  flex-wrap: wrap;
-  background-color:black;
-  justify-content: center;
-  width:40%;
-  padding-right:8%;
-  padding-left:8%;
-  padding-top:3%;
-  padding-bottom:3%;
-  color:white;
-}
-.flex-menu img{
-  width: 100%;
-}
-@media only screen and (max-width: 1050px) {
-  .flex-reservation{
-    padding-top:0.15rem;
-    padding-bottom:0.15rem;
-  }
-  .flex-menu {
-    width:100%;
-  }
-  .flexpicture3 img{
-    display:none;
-  }
-  .flex-menu h1{
-    font-size:1.4rem;
-  }
-  .flex-menu p{
-    font-size:1.2rem;
-  }
-}
-.homepagebutton{
-  background-color: #757575f1;
-  border: none;
-  color: white;
-  padding-top: 1%;
-  padding-bottom:1%;
-  padding-left:2%;
-  padding-right:2%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-.homepagebutton:hover{
-  background-color:black;
-}
-/*RESERVATIONS PAGE BUTTON*/
-.button{
-  background-color: #545454e1;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-.button:hover{
-  background-color:black;
 }
 /*FOOTER CODES*/
 footer{
@@ -419,26 +100,6 @@ footer{
     width:100%;
   }
 }
-  /*BACK TO TOP BUTTON*/
-  #myBtn {
-    display: none;
-    position: fixed;
-    bottom: 3%;
-    right: 3%;
-    z-index: 99;
-    font-size: 1.2rem;
-    outline: none;
-    background-color:black;
-    color: white;
-    cursor: pointer;
-    padding: 1%;
-    border-radius: 6%;
-    border:1px solid white;
-  }
-  
-#myBtn:hover {
-    background-color:#545454;
-  }
 #homepictures{
     content:center;
     padding:1%;
@@ -473,7 +134,7 @@ footer{
     cursor: pointer;
     border-radius: 1%;
   }
-  #button {
+  #button {  /*ONKO TÄMÄ OLEMASSA*/
     position: absolute;
     top: 50%;
     left: 68.5%;
@@ -498,21 +159,7 @@ footer{
 hr{
     width:30%;
   }
-.menu-dish-heading{
-  font-size:2rem;
-  font-family: 'Open Sans Condensed', sans-serif, verdana;
-}
-.menu-dish{
-  font-size:1.4rem;
-  font-family:'Open Sans Condensed', sans-serif, verdana;
-}
-.menu-dish-description{
-  font-size:1.4rem;
-}
-/*RESEVATIONS FORM*/
-label{
-  padding-top:1%;
-}
+
 /*NAVBAR CODE BEGINS*/
 #a{
   color:white;

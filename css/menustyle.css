@@ -1,0 +1,70 @@
+.flexcontentmenu{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:10.15rem;
+    padding-top:2rem;
+  }
+  .flexboxstarters{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:3%;
+  }
+  .flexboxsalads{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexboxseafood{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left:3%;
+  }
+  .flexboxsteakschops{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flexboxpastas{
+    width:50%;
+    display: flex;
+    flex-wrap:wrap;
+    padding-left:3%;
+  }
+  .flexboxdesserts{
+    width:50%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .menu-dish-heading{
+    font-size:2rem;
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
+  }
+  .menu-dish{
+    font-size:1.4rem;
+    font-family:'Open Sans Condensed', sans-serif, verdana;
+  }
+  .menu-dish-description{
+    font-size:1.4rem;
+  }
+    /*BACK TO TOP BUTTON*/
+    #myBtn {
+      display: none;
+      position: fixed;
+      bottom: 3%;
+      right: 3%;
+      z-index: 99;
+      font-size: 1.2rem;
+      outline: none;
+      background-color:black;
+      color: white;
+      cursor: pointer;
+      padding: 1%;
+      border-radius: 6%;
+      border:1px solid white;
+    }
+    
+  #myBtn:hover {
+      background-color:#545454;
+    }

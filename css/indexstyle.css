@@ -1,0 +1,214 @@
+.indexcontent{
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
+    text-align: center;
+    width:100%;
+    padding-bottom:9.15rem;
+    padding-top:0.25rem;
+}
+/*CONTENT IN HOME PAGE*/
+.parentflexbox1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .flex-welcome{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+    width:40%;
+    padding-right:8%;
+    padding-left:8%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:white;
+  }
+  @media only screen and (max-width: 1050px) {
+    .indexcontent{
+      padding-bottom:9.75rem;
+    }
+    .flex-welcome {
+      width:100%;
+      background-color:black;
+    }
+    .flex-welcome h1{
+      font-size:1.4rem;
+    }
+    .flex-welcome p{
+      font-size:1.2rem;
+    }
+    .flexpicture1 img{
+      display:none;
+    }
+  }
+  .flexpicture1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:60%;
+    float:right;
+    padding-left:0.25rem;
+  }
+  .parentflexbox2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top:0.25rem;
+  }
+  .flex-about{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+    width:60%;
+    float:right;
+    padding-right:8%;
+    padding-left:8%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:white;
+  }
+  .ourstorybutton{
+    background-color:black;
+    padding-top:1%;
+    padding-bottom:3%;
+    float:right;
+  }
+  .numbers{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+    color:white;
+    margin:0;
+  }
+  .numbers > div {
+    padding-left:4%;
+    padding-right:4%;
+    padding-top:3%;
+    background-color:black;
+    text-align:center;
+    margin:0;
+  }
+  .numbers > div > p{
+    text-align:center;
+    font-weight: 600;
+  }
+  .numbers > div > h1{
+    text-align:center;
+    font-weight: 600;
+  }
+  .flexpicture2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:40%;
+    float:left;
+    padding-right:0.25rem;
+  }
+  #picturemobile{
+    display:none;
+  }
+  @media only screen and (max-width: 1050px) {
+    #picturemobile{
+      display:block;
+      width:100%;
+      padding-bottom:0.15rem;
+    }
+    .parentflexbox2{
+      padding-top:0.10rem;
+    }
+    .flex-about {
+      width:100%;
+      background-color:black;
+    }
+    .flex-about h1{
+      font-size:1.4rem;
+    }
+    .flex-about p{
+      font-size:1.2rem;
+    }
+    .flexpicture2{
+      display:none;
+    }
+  }
+  .flex-reservation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    color:white;
+    background:no-repeat;
+    background-size:100%;
+    position:relative;
+    padding-top:0.25rem;
+    padding-bottom:0.25rem;
+  }
+  .flex-reservation .homepagebutton{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .flex-reservation img{
+    width: 100%;
+  }
+  .parentflexbox3{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:0.25rem;
+  }
+  .flexpicture3{
+    width:60%;
+    float:right;
+    padding-left:0.25rem;
+  }
+  .flex-menu{   
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    justify-content: center;
+    width:40%;
+    padding-right:8%;
+    padding-left:8%;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:white;
+  }
+  .flex-menu img{
+    width: 100%;
+  }
+  @media only screen and (max-width: 1050px) {
+    .flex-reservation{
+      padding-top:0.15rem;
+      padding-bottom:0.15rem;
+    }
+    .flex-menu {
+      width:100%;
+    }
+    .flexpicture3 img{
+      display:none;
+    }
+    .flex-menu h1{
+      font-size:1.4rem;
+    }
+    .flex-menu p{
+      font-size:1.2rem;
+    }
+  }
+  .homepagebutton{
+    background-color: #757575f1;
+    border: none;
+    color: white;
+    padding-top: 1%;
+    padding-bottom:1%;
+    padding-left:2%;
+    padding-right:2%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  .homepagebutton:hover{
+    background-color:black;
+  }
