@@ -56,7 +56,7 @@
   .flex-about{
     display: flex;
     flex-wrap: wrap;
-    background-color:	#503a28;
+    background-color:	#7c614d;
     justify-content: center;
     width:60%;
     float:right;
@@ -68,14 +68,14 @@
   }
   .ourstorybutton{
     width:100%;
-    background-color:#503a28;
+    background-color:#7c614d;
     padding-top:4%;
-    padding-bottom:3%;
+    padding-bottom:2%;
   }
   .numbers{
     display: flex;
     flex-wrap: wrap;
-    background-color:#503a28;
+    background-color:#7c614d;
     justify-content: center;
     color:white;
     margin:0;
@@ -84,7 +84,7 @@
     padding-left:5%;
     padding-right:5%;
     padding-top:3%;
-    background-color:#503a28;
+    background-color:#7c614d;
     text-align:center;
     margin:0;
   }
@@ -111,14 +111,15 @@
     #picturemobile{
       display:block;
       width:100%;
-      padding-bottom:0.15rem;
+      padding-top:0.15rem;
+      padding-bottom:0.20rem;
     }
     .parentflexbox2{
-      padding-top:0.10rem;
+      padding-top:0rem;
     }
     .flex-about {
       width:100%;
-      background-color:#503a28;
+      background-color:#7c614d;
     }
     .flex-about h1{
       font-size:1.4rem;
@@ -142,7 +143,6 @@
     background:no-repeat;
     background-size:100%;
     position:relative;
-    padding-top:0.25rem;
     padding-bottom:0.25rem;
   }
   .flex-reservation .homepagebutton{
@@ -159,6 +159,7 @@
   .parentflexbox3{
     display: flex;
     flex-wrap: wrap;
+    padding-top:0.25rem;
     padding-bottom:0.25rem;
   }
   .flexpicture3{
@@ -182,9 +183,16 @@
     width: 100%;
   }
   @media only screen and (max-width: 1050px) {
-    .flex-reservation{
-      padding-top:0.15rem;
+    .parentflexbox1{
+      padding-bottom:0rem;
+    }
+    .parentflexbox3{
+      padding-top:0.20rem;
       padding-bottom:0.15rem;
+    }
+    .flex-reservation{
+      padding-top:0rem;
+      padding-bottom:0.20rem;
     }
     .flex-menu {
       width:100%;
@@ -200,7 +208,7 @@
     }
   }
   .homepagebutton{
-    background-color: #727272f1;
+    background-color: #494949f1;
     border: 1.5px solid white;
     color: white;
     padding-top: 1%;
@@ -211,6 +219,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     cursor: pointer;
+    border-radius:3px;
   }
   .homepagebutton:hover{
     background-color:black;
