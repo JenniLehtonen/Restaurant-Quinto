@@ -67,10 +67,10 @@
     color:white;
   }
   .ourstorybutton{
+    width:100%;
     background-color:black;
-    padding-top:1%;
+    padding-top:4%;
     padding-bottom:3%;
-    float:right;
   }
   .numbers{
     display: flex;
@@ -131,7 +131,7 @@
     }
   }
   .flex-reservation{
-    display: flex inline-block;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
