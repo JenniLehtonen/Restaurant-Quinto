@@ -127,9 +127,6 @@
     .flex-about p{
       font-size:1.2rem;
     }
-    .numbers{
-      display:none;
-    }
     .flexpicture2{
       display:none;
     }
@@ -187,7 +184,7 @@
       padding-bottom:0rem;
     }
     .parentflexbox3{
-      padding-top:0.20rem;
+      padding-top:0rem;
       padding-bottom:0.15rem;
     }
     .flex-reservation{
