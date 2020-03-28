@@ -56,7 +56,7 @@
   .flex-about{
     display: flex;
     flex-wrap: wrap;
-    background-color:black;
+    background-color:	#503a28;
     justify-content: center;
     width:60%;
     float:right;
@@ -68,23 +68,23 @@
   }
   .ourstorybutton{
     width:100%;
-    background-color:black;
+    background-color:#503a28;
     padding-top:4%;
     padding-bottom:3%;
   }
   .numbers{
     display: flex;
     flex-wrap: wrap;
-    background-color:black;
+    background-color:#503a28;
     justify-content: center;
     color:white;
     margin:0;
   }
   .numbers > div {
-    padding-left:4%;
-    padding-right:4%;
+    padding-left:5%;
+    padding-right:5%;
     padding-top:3%;
-    background-color:black;
+    background-color:#503a28;
     text-align:center;
     margin:0;
   }
@@ -118,13 +118,16 @@
     }
     .flex-about {
       width:100%;
-      background-color:black;
+      background-color:#503a28;
     }
     .flex-about h1{
       font-size:1.4rem;
     }
     .flex-about p{
       font-size:1.2rem;
+    }
+    .numbers{
+      display:none;
     }
     .flexpicture2{
       display:none;
