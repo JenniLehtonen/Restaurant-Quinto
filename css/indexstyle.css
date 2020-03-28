@@ -197,8 +197,8 @@
     }
   }
   .homepagebutton{
-    background-color: #757575f1;
-    border: none;
+    background-color: #727272f1;
+    border: 1.5px solid white;
     color: white;
     padding-top: 1%;
     padding-bottom:1%;
