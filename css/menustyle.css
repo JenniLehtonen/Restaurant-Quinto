@@ -3,6 +3,31 @@
     flex-wrap: wrap;
     padding-bottom:10.15rem;
     padding-top:2rem;
+    width:100%;
+  }
+  .parentflexbox1{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  @media only screen and (max-width: 1050px) {
+  .flexboxstarters{
+    width:100%;
+  }
+  .flexboxsalads{
+    width:100%;
+  }
+  .flexboxfood{
+    width:100%;
+  }
+  .flexboxsteakschops{
+    width:100%;
+  }
+  .flexboxpastas{
+    width:100%;
+  }
+  .flexboxdesserts{
+    width:100%;
+  }
   }
   .flexboxstarters{
     width:50%;
