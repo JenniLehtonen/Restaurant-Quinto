@@ -31,6 +31,7 @@
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    float:left;
     justify-content: center;
     background-color:yellow;
   }
@@ -38,6 +39,7 @@
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    float:right;
     justify-content: center;
     background-color:green;
   }
