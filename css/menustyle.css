@@ -1,6 +1,4 @@
 .flexcontentmenu{
-    display: flex;
-    flex-wrap: wrap;
     padding-bottom:10.15rem;
     padding-top:2rem;
     width:100%;
@@ -33,34 +31,39 @@
     width:50%;
     display: flex;
     flex-wrap: wrap;
-    padding-left:3%;
+    justify-content: center;
+    background-color:yellow;
   }
   .flexboxsalads{
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    background-color:green;
   }
   .flexboxseafood{
     width:50%;
     display: flex;
     flex-wrap: wrap;
-    padding-left:3%;
+    justify-content: center;
   }
   .flexboxsteakschops{
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .flexboxpastas{
     width:50%;
     display: flex;
     flex-wrap:wrap;
-    padding-left:3%;
+    justify-content: center;
   }
   .flexboxdesserts{
     width:50%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
   }
   .menu-dish-heading{
     font-size:2rem;
