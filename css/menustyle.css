@@ -6,8 +6,12 @@
   .parentflexbox1{
     display: flex;
     flex-wrap: wrap;
+    width:100%;
   }
   @media only screen and (max-width: 1050px) {
+    .parentflexbox1{
+      flex-direction:column;
+    }
   .flexboxstarters{
     width:100%;
   }
@@ -31,7 +35,6 @@
     width:50%;
     display: flex;
     flex-wrap: wrap;
-    float:left;
     justify-content: center;
     background-color:yellow;
   }
@@ -39,7 +42,6 @@
     width:50%;
     display: flex;
     flex-wrap: wrap;
-    float:right;
     justify-content: center;
     background-color:green;
   }
