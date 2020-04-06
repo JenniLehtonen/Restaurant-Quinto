@@ -9,14 +9,6 @@ body{
   min-height:100vh;
   width:100%;
 }
-
-.content{
-  font-family: 'Open Sans Condensed', sans-serif, verdana;
-  text-align: center;
-  width:100%;
-  padding-bottom:9.15rem;
-  padding-top:0.25rem;
-}
 p{
     font-size:1.2rem;
 }
@@ -120,7 +112,7 @@ footer{
     width: 100%;
 }
   /* Style the button and place it in the middle of the container/image */
-.container .btn {
+.container .btn {   /*ONKO TÄMÄ OLEMASSA*/
     position: absolute;
     top: 50%;
     left: 31.5%;
@@ -132,7 +124,7 @@ footer{
     padding: 1vw 1.5vw;
     border: none;
     cursor: pointer;
-    border-radius: 1%;
+    border-radius: 50%;
   }
   #button {  /*ONKO TÄMÄ OLEMASSA*/
     position: absolute;
