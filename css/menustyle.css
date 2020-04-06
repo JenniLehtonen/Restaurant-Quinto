@@ -8,29 +8,6 @@
     flex-wrap: wrap;
     width:100%;
   }
-  @media only screen and (max-width: 1050px) {
-    .parentflexbox1{
-      flex-direction:column;
-    }
-  .flexboxstarters{
-    width:100%;
-  }
-  .flexboxsalads{
-    width:100%;
-  }
-  .flexboxfood{
-    width:100%;
-  }
-  .flexboxsteakschops{
-    width:100%;
-  }
-  .flexboxpastas{
-    width:100%;
-  }
-  .flexboxdesserts{
-    width:100%;
-  }
-  }
   .flexboxstarters{
     width:50%;
     display: flex;
@@ -68,6 +45,29 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+  }
+  @media only screen and (max-width: 1050px) {
+    .parentflexbox1{
+      flex-direction:column;
+    }
+    .flexboxstarters{
+      width:100%;
+    }
+    .flexboxsalads{
+      width:100%;
+    }
+    .flexboxseafood{
+      width:100%;
+    }
+    .flexboxsteakschops{
+      width:100%;
+    }
+    .flexboxpastas{
+      width:100%;
+    }
+    .flexboxdesserts{
+      width:100%;
+    }
   }
   .menu-dish-heading{
     font-size:2rem;
