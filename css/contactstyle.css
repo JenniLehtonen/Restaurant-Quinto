@@ -8,15 +8,28 @@
     color:black;
     background-color:rgba(255, 255, 255, 0.932);
   }
-  .fa-facebook {
-    color: black;
+  #socialreservationf{
+    color:black;
   }
-  .fa-twitter {
-    color: black;
+  #socialreservationf:hover{
+    color:rgb(70, 96, 153);
   }
-  .fa-instagram {
-    color: black;
+  #socialreservationi{
+    color:black;
   }
-  .fa-snapchat-ghost {
-    color: black;
+  #socialreservationi:hover{
+    color:#E1306C;
   }
+  #socialreservationt{
+    color:black;
+  }
+  #socialreservationt:hover{
+    color:#55ACEE;
+  }
+  #socialreservations{
+    color:black;
+  }
+  #socialreservations:hover{
+    color:#fffc00;
+  }
+  
