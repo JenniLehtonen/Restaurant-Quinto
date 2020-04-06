@@ -13,36 +13,42 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   .flexboxsalads{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   .flexboxseafood{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   .flexboxsteakschops{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   .flexboxpastas{
     width:50%;
     display: flex;
     flex-wrap:wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   .flexboxdesserts{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 1rem;
   }
   @media only screen and (max-width: 1050px) {
     .menu-dish-heading{
