@@ -13,14 +13,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:yellow;
   }
   .flexboxsalads{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color:green;
   }
   .flexboxseafood{
     width:50%;
@@ -74,11 +72,13 @@
     font-family: 'Open Sans Condensed', sans-serif, verdana;
   }
   .menu-dish{
-    font-size:1.4rem;
+    font-size:1.5rem;
     font-family:'Open Sans Condensed', sans-serif, verdana;
   }
   .menu-dish-description{
     font-size:1.4rem;
+    font-family:'Open Sans Condensed', sans-serif, verdana;
+    font-style: italic;
   }
     /*BACK TO TOP BUTTON*/
     #myBtn {
