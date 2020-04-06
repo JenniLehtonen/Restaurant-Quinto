@@ -1,0 +1,22 @@
+.content{
+    font-family: 'Open Sans Condensed', sans-serif, verdana;
+    text-align: center;
+    padding-bottom:10.15rem;
+    width:50%;
+    margin-left:25%;
+    margin-top:3rem;
+    color:black;
+    background-color:rgba(255, 255, 255, 0.932);
+  }
+  .fa-facebook {
+    color: black;
+  }
+  .fa-twitter {
+    color: black;
+  }
+  .fa-instagram {
+    color: black;
+  }
+  .fa-snapchat-ghost {
+    color: black;
+  }
