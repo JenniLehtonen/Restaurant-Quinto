@@ -45,6 +45,15 @@
     justify-content: center;
   }
   @media only screen and (max-width: 1050px) {
+    .menu-dish-heading{
+      font-size:1.8rem !important;
+    }
+    .menu-dish{
+      font-size:1.4rem !important;
+    }
+    .menu-dish-description{
+      font-size:1.2rem !important;
+    }
     .parentflexbox1{
       flex-direction:column;
     }
