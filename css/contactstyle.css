@@ -8,6 +8,10 @@
     color:black;
     background-color:rgba(255, 255, 255, 0.932);
   }
+  .content div{
+    text-align:start;
+  }
+  
   #socialreservationf{
     color:black;
   }
