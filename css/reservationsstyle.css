@@ -35,7 +35,7 @@ select:focus{
   outline: none;
 }
 /*SUBMIT BUTTON*/
-input[type=submit] {
+#reservationbutton {
   width: 20%;
   background-color: #545454e1;
   color: white;
@@ -45,7 +45,7 @@ input[type=submit] {
   cursor: pointer;
   margin-bottom:2rem;
 }
-input[type=submit]:hover {
+#reservationbutton:hover {
   background-color:black;
 }
 /*SPACE ABOVE THE FOOTER*/
