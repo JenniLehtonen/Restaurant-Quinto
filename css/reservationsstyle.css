@@ -13,7 +13,7 @@ label{
   background-color:rgba(255, 255, 255, 0.932);
 }
 /*FORM STYLING*/ 
-input{
+input, select, textarea{
   padding: 8px 10px;
   margin: 8px 0;
   box-sizing: border-box;
@@ -25,14 +25,11 @@ input:focus {
   border: 2px solid rgb(189, 189, 189);
   outline: none;
 }
-textarea{
-  box-sizing: border-box;
-  border: 2px solid rgb(221, 221, 221);
-  border-radius: 4px;
-  background-color: white;
-  -webkit-transition: 0.5s;
-}
 textarea:focus{
+  border: 2px solid rgb(189, 189, 189);
+  outline: none;
+}
+select:focus{
   border: 2px solid rgb(189, 189, 189);
   outline: none;
 }
