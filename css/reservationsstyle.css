@@ -8,7 +8,7 @@ label{
   padding-top:2rem;
   width:50%;
   margin-left:25%;
-  margin-top:3rem;
+  margin-top:56px;
   color:black;
   background-color:rgba(255, 255, 255, 0.932);
 }
@@ -34,30 +34,28 @@ select:focus{
   border: 2px solid rgb(189, 189, 189);
   outline: none;
 }
-/*RESERVATIONS PAGE BUTTON*/
-.button{
+/*SUBMIT BUTTON*/
+input[type=submit] {
+  width: 20%;
   background-color: #545454e1;
-  border: none;
   color: white;
-  padding-top: 1%;
-  padding-bottom:1%;
-  padding-left:2%;
-  padding-right:2%;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 1.4rem;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
   cursor: pointer;
-  border-radius:3px;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
 }
-.button:hover{
+input[type=submit]:hover {
   background-color:black;
+}
+/*SPACE ABOVE THE FOOTER*/
+.flex-container{
+  margin-top:200px;
 }
 @media screen and (max-width: 1050px) {
   .content{
     width:100%;
     margin-left:0;
-    margin-top:0;
+    margin-top:56px;
   }
 }
