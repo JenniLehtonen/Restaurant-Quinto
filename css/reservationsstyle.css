@@ -20,6 +20,7 @@ input, select, textarea{
   border: 2px solid rgb(221, 221, 221);
   -webkit-transition: 0.5s;
   border-radius: 4px;
+  width:50%;
 }
 input:focus {
   border: 2px solid rgb(189, 189, 189);
