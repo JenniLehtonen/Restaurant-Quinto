@@ -12,6 +12,17 @@ label{
   color:black;
   background-color:rgba(255, 255, 255, 0.932);
 }
+/*FORM STYLING*/ 
+input{
+  padding: 8px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid rgb(235, 235, 235);
+  border-radius: 4px;
+}
+input:focus {
+  border: 3px solid #555;
+}
 /*RESERVATIONS PAGE BUTTON*/
 .button{
   background-color: #545454e1;
