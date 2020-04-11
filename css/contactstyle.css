@@ -9,19 +9,21 @@
   flex-wrap: wrap;
   width:100%;
   background-color:white;
+  padding-bottom:2rem;
 }
 .openinghours{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
   width:50%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  text-align:center;
+  justify-content:center;
+  text-align:start;
   padding-top:2rem;
 }
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
-  text-align: center;
+  text-align: start;
+  padding-left:18%;
   padding-top:2rem;
   width:50%;
   color:black;
@@ -59,4 +61,5 @@
   #socialreservations:hover{
     color:#fffc00;
   }
+  
   
