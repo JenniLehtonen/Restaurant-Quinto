@@ -62,7 +62,7 @@
   .flex-about{
     display: flex;
     flex-wrap: wrap;
-    background-color:	#7c614d;
+    background-color:	#725c4b;
     justify-content: center;
     width:60%;
     float:right;
@@ -74,14 +74,14 @@
   }
   .ourstorybutton{
     width:100%;
-    background-color:#7c614d;
+    background-color:#725c4b;
     padding-top:4%;
     padding-bottom:2%;
   }
   .numbers{
     display: flex;
     flex-wrap: wrap;
-    background-color:#7c614d;
+    background-color:#725c4b;
     justify-content: center;
     color:white;
     margin:0;
@@ -90,7 +90,7 @@
     padding-left:5%;
     padding-right:5%;
     padding-top:3%;
-    background-color:#7c614d;
+    background-color:#725c4b;
     text-align:center;
     margin:0;
   }
@@ -127,7 +127,7 @@
       width:100%;
       padding-top:5%;
       padding-bottom:5%;
-      background-color:#7c614d;
+      background-color:#725c4b;
     }
     .flex-about h1{
       font-size:1.4rem;
