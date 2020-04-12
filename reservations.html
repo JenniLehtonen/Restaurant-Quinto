@@ -22,6 +22,11 @@
       background-attachment: fixed;
     }
     </style>
+    <script>
+      function msg() {
+        alert("Thank you for your reservation!");
+      }
+    </script>
 </head>
 <body>
   <div id="page-container">
@@ -67,7 +72,7 @@
             </select><br>
             <label for="name">Comments: (optional)</label><br>
             <textarea id="comments" name="comments" rows="3" cols="50" style="resize: none;"></textarea><br>
-            <input type="button" id="reservationbutton" value="Submit" style="margin-top:2%;">
+            <input type="submit" id="reservationbutton" value="Submit" style="margin-top:2%;" onclick="msg()">
           </form> 
         </div>
       </div>
