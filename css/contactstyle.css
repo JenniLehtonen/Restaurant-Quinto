@@ -17,12 +17,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content:center;
-  text-align:start;
+  text-align:center;
   padding-top:2rem;
 }
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
-  padding-left:18%;
+  justify-content:center;
+  text-align:center;
   padding-top:2rem;
   width:50%;
   color:black;
@@ -35,7 +36,7 @@ input, select, textarea{
   border: 2px solid rgb(221, 221, 221);
   -webkit-transition: 0.5s;
   border-radius: 4px;
-  width:70%;
+  width:50%;
 }
 input:focus {
   border: 2px solid rgb(189, 189, 189);
