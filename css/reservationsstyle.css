@@ -4,6 +4,10 @@ label{
   }
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
+  padding-bottom:12.15rem;
+}
+.reservationform{
+  font-family: 'Open Sans Condensed', sans-serif, verdana;
   text-align: center;
   padding:1.5rem 0rem;
   width:50%;
@@ -51,7 +55,6 @@ select:focus{
 }
 /*SPACE ABOVE THE FOOTER*/
 .flex-container{
-  margin-top:200px;
 }
 @media screen and (max-width: 1050px) {
   .content{
