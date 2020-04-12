@@ -37,7 +37,7 @@
     <div class="flexcontentcontact">
       <div class="parentflexbox1">
       <div class="content">  
-          <form action="/action_page.php">
+          <form action="">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" pattern="[A-Äa-ö,-]{3,}" maxlength="35" required><br>
             <label for="email">Email Address: (optional)</label><br>
@@ -48,8 +48,13 @@
             <input type="text" id="subject" name="subject" maxlength="16" required><br>
             <label for="name">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="50" style="resize: none;"></textarea><br>
-            <input type="submit" id="reservationbutton" value="Submit" style="margin-top:2%;">
+            <input type="button" id="reservationbutton" value="Submit" style="margin-top:2%;" onclick="msg()">
           </form> 
+          <script>
+            function msg() {
+              alert("Thank you for your message. We will get back to you soon!");
+            }
+            </script>
         </div>
       <div class="openinghours">
         <div>
