@@ -28,8 +28,10 @@
     }
     .flex-welcome {
       width:100%;
-      padding-top:5%;
-      padding-bottom:5%;
+      padding-right:12%;
+      padding-left:12%;
+      padding-top:2.5rem;
+      padding-bottom:2.5rem;
       background-color:black;
     }
     .flex-menu{
@@ -134,8 +136,10 @@
     }
     .flex-about {
       width:100%;
-      padding-top:5%;
-      padding-bottom:5%;
+      padding-right:12%;
+      padding-left:12%;
+      padding-top:2.5rem;
+      padding-bottom:2.5rem;
       background-color:#504235;
     }
     .flex-about h1{
@@ -197,6 +201,12 @@
     width: 100%;
   }
   @media only screen and (max-width: 1050px) {
+    .flex-menu{
+      padding-right:12%;
+      padding-left:12%;
+      padding-top:2.5rem;
+      padding-bottom:2.5rem;
+    }
     .parentflexbox1{
       padding-bottom:0rem;
     }
@@ -223,7 +233,7 @@
   }
   .homepagebutton{
     background-color: #494949f1;
-    border: 1.5px solid white;
+    border: 0.8px solid rgb(255, 255, 255);
     color: white;
     padding-top: 1%;
     padding-bottom:1%;
@@ -233,7 +243,7 @@
     text-decoration: none;
     font-size: 1.5rem;
     cursor: pointer;
-    border-radius:3px;
+    border-radius:4px;
   }
   .homepagebutton:hover{
     background-color:black;
