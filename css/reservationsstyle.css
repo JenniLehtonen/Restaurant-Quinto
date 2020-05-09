@@ -53,9 +53,6 @@ select:focus{
 #reservationbutton:hover{
   background-color:black;
 }
-#reservationbutton :focus{
-  background-color:black;
-}
 @media screen and (max-width: 1050px) {
   .reservationform{
     width:100%;
