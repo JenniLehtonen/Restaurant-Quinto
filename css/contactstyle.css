@@ -39,15 +39,15 @@ input, select, textarea{
   width:50%;
 }
 input:focus {
-  border: 2px solid rgb(189, 189, 189);
+  border: 2px solid rgb(136, 136, 136);
   outline: none;
 }
 textarea:focus{
-  border: 2px solid rgb(189, 189, 189);
+  border: 2px solid rgb(136, 136, 136);
   outline: none;
 }
 select:focus{
-  border: 2px solid rgb(189, 189, 189);
+  border: 2px solid rgb(136, 136, 136);
   outline: none;
 }
 /*SUBMIT BUTTON*/
