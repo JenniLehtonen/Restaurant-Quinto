@@ -20,6 +20,9 @@
   text-align:center;
   padding-top:2rem;
 }
+address{
+  font-size:1.2rem;
+}
 .content{
   font-family: 'Open Sans Condensed', sans-serif, verdana;
   justify-content:center;
