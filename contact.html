@@ -14,11 +14,6 @@
   <!--social media icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Restaurant Quinto</title>
-  <script>
-    function msg() {
-      alert("Thank you for your message. We will get back to you soon!");
-    }
-  </script>
 </head>
 <body>
   <div id="page-container">
@@ -42,7 +37,7 @@
     <div class="flexcontentcontact">
       <div class="parentflexbox1">
       <div class="content">  
-          <form action="">
+          <form id="f" action="">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" pattern="[A-Äa-ö,-]{3,}" maxlength="35" required><br>
             <label for="email">Email Address: (optional)</label><br>
@@ -51,9 +46,10 @@
             <input type="text" id="phonenumber" name="phonenumber" pattern="[0-9,+, ]{7,}" maxlength="16" required><br>
             <label for="name">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="50" style="resize: none;"></textarea><br>
-            <input type="button" id="reservationbutton" value="Submit" style="margin-top:2%;" onclick="msg()">
+            <input type="button" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.message.value)" style="margin-top:2%;">
           </form> 
         </div>
+
       <div class="openinghours">
         <div>
           <h2>Contact us!</h2>
@@ -101,5 +97,22 @@
     </div>
   </footer>
 </div>
+<script>
+  function checkInput(name, phonenumber, message){
+    this.name = name;
+    this.phonenumber = phonenumber;
+    this.message = message;
+    if(name==""){
+      alert("Please write your name");
+    } else if (phonenumber==""){
+      alert("Please write your phone number");
+    } else if (message==""){
+      alert("Please write your message");
+    }
+    else{
+      alert("Thank you for your message. We will get back to you soon!");
+    }
+  }
+</script>
 </body>
 </html>

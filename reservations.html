@@ -22,11 +22,6 @@
       background-attachment: fixed;
     }
     </style>
-    <script>
-      function msg() {
-        alert("Thank you for your reservation!");
-      }
-    </script>
 </head>
 <body>
   <div id="page-container">
@@ -50,7 +45,7 @@
         <div class="reservationform">
         <h2>Book your table!</h2>
         <p style="text-align:center;">Our cancellation policy requires cancellations no later than 12:00pm on the day of your reservation.</p>
-        <form action="/action_page.php">
+        <form id="f" action="#">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" pattern="[A-Äa-ö,-]{3,}" maxlength="35" required autofocus><br>
             <label for="email">Email Address: (optional)</label><br>
@@ -72,7 +67,7 @@
             </select><br>
             <label for="name">Comments: (optional)</label><br>
             <textarea id="comments" name="comments" rows="3" cols="50" style="resize: none;"></textarea><br>
-            <input type="submit" id="reservationbutton" value="Submit" style="margin-top:2%;" onclick="msg()">
+            <input type="submit" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.date.value)" style="margin-top:2%;">
           </form> 
         </div>
       </div>
@@ -101,5 +96,22 @@
     </div>
   </footer>
 </div>
+<script>
+  function checkInput(name, phonenumber, date){
+    this.name = name;
+    this.phonenumber = phonenumber;
+    this.date = date;
+    if(name==""){
+      alert("Please write your name");
+    } else if (phonenumber==""){
+      alert("Please write your phone number");
+    } else if (date==""){
+      alert("Please select the date");
+    }
+    else{
+      alert("Thank you for your reservation!");
+    }
+  }
+</script>
 </body>
 </html>
