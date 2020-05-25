@@ -82,6 +82,9 @@ address{
   .openinghours{
     width:100%;
   }
+  input, select, textarea{
+    width:68%;
+  }
 }
 #socialreservationf{
   color:black;
