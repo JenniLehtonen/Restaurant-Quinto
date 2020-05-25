@@ -71,6 +71,10 @@ select:focus{
 #reservationbutton:hover {
   background-color:#383838f1;
 }
+address{
+  line-height: 200% !important;
+  text-align:start;
+}
 @media only screen and (max-width: 1050px) {
   .content{
     width:100%;
