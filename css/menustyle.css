@@ -26,34 +26,14 @@
     margin-bottom: 1rem;
     padding-top:2rem;
   }
-  .flexboxseafood{
+  .flexboxfood{
     width:50%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 1rem;
   }
-  .flexboxsteakschops{
-    width:50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  .flexboxpastas{
-    width:50%;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
-  .flexboxdesserts{
-    width:50%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 1rem;
-  }
+  
   @media only screen and (max-width: 1050px) {
     .menu-dish-heading{
       font-size:1.8rem !important;
@@ -74,16 +54,7 @@
       width:100%;
       padding-top:0rem;
     }
-    .flexboxseafood{
-      width:100%;
-    }
-    .flexboxsteakschops{
-      width:100%;
-    }
-    .flexboxpastas{
-      width:100%;
-    }
-    .flexboxdesserts{
+    .flexboxfood{
       width:100%;
     }
   }
