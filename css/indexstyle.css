@@ -255,7 +255,7 @@
     }
   }
   .homepagebutton{
-    background-color: #585858f1;
+    background-color: #818181f1;
     border: 0.8px solid rgb(255, 255, 255);
     color: white;
     padding-top: 1%;
@@ -269,5 +269,9 @@
     border-radius:4px;
   }
   .homepagebutton:hover{
-    background-color:#383838f1;
+    background-color:#555454f1;
+  }
+  #homepagebutton:focus{
+    border: 2px solid black;
+    outline-color: black;
   }

@@ -42,7 +42,7 @@ select:focus{
 /*SUBMIT BUTTON*/
 #reservationbutton {
   width: 20%;
-  background-color: #585858f1;
+  background-color: #818181f1;
   color: white;
   padding: 14px 20px;
   border: none;
@@ -51,7 +51,11 @@ select:focus{
   margin-bottom:2rem;
 }
 #reservationbutton:hover{
-  background-color:#383838f1;
+  background-color:#555454f1;
+}
+#reservationbutton:focus{
+  border: 2px solid rgb(0, 0, 0);
+  outline-color: black;
 }
 @media screen and (max-width: 1050px) {
   .reservationform{

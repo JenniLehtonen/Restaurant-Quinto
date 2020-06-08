@@ -80,7 +80,7 @@
       z-index: 99;
       font-size: 1.2rem;
       outline: none;
-      background-color: #585858f1;
+      background-color: #818181f1;
       color: white;
       cursor: pointer;
       padding: 1%;
@@ -89,5 +89,5 @@
     }
     
   #myBtn:hover {
-    background-color:#383838f1;
+    background-color:#555454f1;
     }
