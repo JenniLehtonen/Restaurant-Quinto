@@ -156,6 +156,10 @@ footer{
 #a:hover{
   color:rgb(170, 162, 135);
 }
+#a.active{
+  background-color: #666;
+  color: white;
+}
 .navbar.navbar-expand-md{
     background-color: black;
     color:white;
