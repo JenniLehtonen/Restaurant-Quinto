@@ -135,6 +135,13 @@
     </div>
   </footer>
 <script>
+$(function(){
+  $('a').each(function() {
+    if ($(this).prop('href') == window.location.href) {
+      $(this).addClass('current');
+    }
+  });
+});
 //Get the button
 var mybutton = document.getElementById("myBtn");
 
