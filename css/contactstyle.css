@@ -49,6 +49,13 @@ input:focus {
   border: 2px solid rgb(136, 136, 136);
   outline: none;
 }
+.inputInvalid{
+  background-color:rgba(236, 74, 48, 0.575);
+  -moz-box-shadow: none;
+  border: 2px solid rgb(104, 103, 103);
+  outline: none;
+}
+
 textarea:focus{
   border: 2px solid rgb(136, 136, 136);
   outline: none;

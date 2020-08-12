@@ -92,10 +92,10 @@
     </div>
     <div class="socialMedia">
       <h6>FOLLOW US ON SOCIAL MEDIA</h6>
-      <a href="https://www.facebook.com/"  class="fa fa-facebook" target="_blank"></a>
-      <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
-      <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
-      <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost" target="_blank"></a>
+      <a href="https://www.facebook.com/"  id="socialMediaIcons" class="fa fa-facebook" target="_blank"></a>
+      <a href="https://www.instagram.com/" id="socialMediaIcons" class="fa fa-instagram" target="_blank"></a>
+      <a href="https://twitter.com/" id="socialMediaIcons" class="fa fa-twitter" target="_blank"></a>
+      <a href="https://www.snapchat.com/" id="socialMediaIcons" class="fa fa-snapchat-ghost" target="_blank"></a>
     </div>
   </footer>
 </div>
@@ -112,8 +112,14 @@ $(function(){
     this.phonenumber = phonenumber;
     this.message = message;
     if(name==""){
-      alert("Please write your name");
-    } else if (phonenumber==""){
+      var element = document.getElementById("name");
+      element.classList.add("inputInvalid");
+  }
+ else if (name!=""){
+  var element = document.getElementById("name");
+  element.classList.remove("inputInvalid");
+  }
+     else if (phonenumber==""){
       alert("Please write your phone number");
     } else if (message==""){
       alert("Please write your message");

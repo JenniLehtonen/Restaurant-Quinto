@@ -41,6 +41,9 @@ footer{
 .flex-container > div > p{
   text-align:center;
 }
+#socialMediaIcons{
+  text-decoration:none;
+}
 @media only screen and (max-width: 1050px) {
   .flex-container > div {
     width:100%;
