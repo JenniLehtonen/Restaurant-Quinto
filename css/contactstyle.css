@@ -99,24 +99,28 @@ address{
 }
 #socialreservationf{
   color:black;
+  text-decoration: none;
 }
   #socialreservationf:hover{
     color:rgb(70, 96, 153);
   }
   #socialreservationi{
     color:black;
+    text-decoration: none;
   }
   #socialreservationi:hover{
     color:#E1306C;
   }
   #socialreservationt{
     color:black;
+    text-decoration: none;
   }
   #socialreservationt:hover{
     color:#55ACEE;
   }
   #socialreservations{
     color:black;
+    text-decoration: none;
   }
   #socialreservations:hover{
     color:#fffc00;
