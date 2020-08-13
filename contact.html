@@ -11,7 +11,7 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <script src="jquery-3.5.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <!--social media icons-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Restaurant Quinto</title>
@@ -104,11 +104,14 @@
 </div>
 <script>
    document.getElementById("nameError").style.display="none";
-   document.getElementById("phoneError").style.display="none";
+   document.getElementById("phoneError").style.display="none"; //error messages hidden by default
    document.getElementById("messageError").style.display="none";
+   var nameElement=document.getElementById("name");
+   var phoneElement=document.getElementById("phonenumber");
+   var messageElement=document.getElementById("message");
 $(function(){
   $('a').each(function() {
-    if ($(this).prop('href') == window.location.href) {
+    if ($(this).prop('href') == window.location.href) { //shows current page on the navigation bar
       $(this).addClass('current');
     }
   });
@@ -118,28 +121,22 @@ $(function(){
     this.phonenumber = phonenumber;
     this.message = message;
     if(name==""){
-      var element = document.getElementById("name");
-      element.classList.add("inputInvalid");
+      nameElement.classList.add("inputInvalid");
       document.getElementById("nameError").style.display="block";
   } if (name!=""){
-      var element = document.getElementById("name");
-      element.classList.remove("inputInvalid");
+      nameElement.classList.remove("inputInvalid");
       document.getElementById("nameError").style.display="none";
   } if (phonenumber==""){
-      var element = document.getElementById("phonenumber");
-      element.classList.add("inputInvalid");
+      phoneElement.classList.add("inputInvalid");
       document.getElementById("phoneError").style.display="block";
     } if (phonenumber!=""){
-      var element = document.getElementById("phonenumber");
-      element.classList.remove("inputInvalid");
-      document.getElementById("nameError").style.display="none";
+      phoneElement.classList.remove("inputInvalid");
+      document.getElementById("phoneError").style.display="none";
     } if (message==""){
-      var element = document.getElementById("message");
-      element.classList.add("inputInvalid");
+      messageElement.classList.add("inputInvalid");
       document.getElementById("messageError").style.display="block";
     } if (message!=""){
-      var element = document.getElementById("message");
-      element.classList.remove("inputInvalid");
+      messageElement.classList.remove("inputInvalid");
       document.getElementById("messageError").style.display="none";
     }
   }
