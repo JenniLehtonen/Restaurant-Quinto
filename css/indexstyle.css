@@ -13,7 +13,7 @@
   .flex-welcome{
     display: flex;
     flex-wrap: wrap;
-    background-color:black;
+    background-color:#1B1C1E;
     justify-content: center;
     width:40%;
     padding-right:8%;
@@ -32,7 +32,7 @@
       padding-left:12%;
       padding-top:2.5rem;
       padding-bottom:2.5rem;
-      background-color:black;
+      background-color:#1B1C1E;
     }
     .flex-menu{
       padding-top:5%;
@@ -207,7 +207,7 @@
   .flex-menu{   
     display: flex inline-block;
     flex-wrap: wrap;
-    background-color:black;
+    background-color:#1B1C1E;
     justify-content: center;
     width:40%;
     padding-right:8%;
