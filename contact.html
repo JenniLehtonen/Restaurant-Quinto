@@ -52,6 +52,7 @@
             <textarea id="message" name="message" rows="5" cols="50" style="resize: none;" required></textarea><br>
             <div id="messageError"><p>Please enter a message for us</p></div>
             <input type="button" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.message.value)" style="margin-top:2%;">
+            <div id="completed"><p>Thank you for contacting us! We will get back to you soon!</p></div>
           </form> 
         </div>
 
@@ -106,6 +107,7 @@
    document.getElementById("nameError").style.display="none";
    document.getElementById("phoneError").style.display="none"; //error messages hidden by default
    document.getElementById("messageError").style.display="none";
+   document.getElementById("completed").style.display="none";
    var nameElement=document.getElementById("name");
    var phoneElement=document.getElementById("phonenumber");
    var messageElement=document.getElementById("message");
@@ -126,18 +128,23 @@ $(function(){
     } if (name!=""){
       nameElement.classList.remove("inputInvalid");
       document.getElementById("nameError").style.display="none";
+      document.getElementById("completed").style.display="none";
     } if (phonenumber==""){
       phoneElement.classList.add("inputInvalid");
       document.getElementById("phoneError").style.display="block";
     } if (phonenumber!=""){
       phoneElement.classList.remove("inputInvalid");
       document.getElementById("phoneError").style.display="none";
+      document.getElementById("completed").style.display="none";
     } if (message==""){
       messageElement.classList.add("inputInvalid");
       document.getElementById("messageError").style.display="block";
     } if (message!=""){
       messageElement.classList.remove("inputInvalid");
       document.getElementById("messageError").style.display="none";
+      document.getElementById("completed").style.display="none";
+    } if(name != "" && phonenumber != "" & message != "") { //if everything is okay show "completed" div
+      document.getElementById("completed").style.display="block";
     }
   }
 </script>
