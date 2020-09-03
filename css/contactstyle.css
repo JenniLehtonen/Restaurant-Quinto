@@ -50,10 +50,14 @@ input:focus {
   outline: none;
 }
 .inputInvalid{
-  background-color:rgba(236, 74, 48, 0.575);
-  -moz-box-shadow: none;
-  border: 2px solid rgb(104, 103, 103);
+  background-color:#FFD6D0;
+  border: 2px solid #f7a295;
+  color: #810D09;
+  border-radius:10px;
+  padding: 0.4rem;
+  margin: 0.5rem;
   outline: none;
+  width:40%;
 }
 #nameError, #phoneError, #messageError{
   font-weight:bold;
