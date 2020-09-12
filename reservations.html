@@ -147,6 +147,13 @@ $(function(){
       dateElement.classList.remove("inputInvalid");
       document.getElementById("dateError").style.display="none";
       document.getElementById("completed").style.display="none";
+    } if (guests ==""){
+      guestsElement.classList.add("inputInvalid");
+      document.getElementById("guestError").style.display="block";
+    } if (guests !=""){
+      guestsElement.classList.remove("inputInvalid");
+      document.getElementById("guestError").style.display="none";
+      document.getElementById("completed").style.display="none";
     } if(name != "" && phonenumber != "") { //if everything is okay show "completed" div
       document.getElementById("completed").style.display="block";
     }
