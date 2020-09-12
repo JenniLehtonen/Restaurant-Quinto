@@ -53,7 +53,7 @@ input:focus {
   outline: none;
   border: 2px solid #AE3F51;
   color: #810D09;
-  box-shadow: 2px 2px 10px 1px #FFB0BB;
+  box-shadow: 1px 1px 10px 1px #FFB0BB;
 }
 #nameError, #phoneError, #messageError{
   font-weight:bold;
