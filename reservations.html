@@ -70,7 +70,7 @@
               <option value="7people">7 people</option>
               <option value="8+people">8+ people</option>
             </select>
-            <div id="guestError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please select the number of guests</p></div><br>
+            <br>
             <label for="comments">Comments: (optional)</label><br>
             <textarea id="comments" name="comments" rows="3" cols="50" style="resize: none;"></textarea><br>
             <input type="button" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.date.value, f.guests.value)" style="margin-top:2%;">
@@ -107,13 +107,11 @@
    document.getElementById("nameError").style.display="none";
    document.getElementById("phoneError").style.display="none"; //error messages hidden by default
    document.getElementById("dateError").style.display="none";
-   document.getElementById("guestError").style.display="none";
    document.getElementById("completed").style.display="none"; //completed message hidden by default
    var nameElement=document.getElementById("name");
    var phoneElement=document.getElementById("phonenumber");
    var messageElement=document.getElementById("message");
    var dateElement=document.getElementById("date");
-   var guestsElement=document.getElementById("guests");
 $(function(){
   $('a').each(function() {
     if ($(this).prop('href') == window.location.href) {
@@ -121,11 +119,10 @@ $(function(){
     }
   });
 });
-  function checkInput(name, phonenumber, date, guests){
+  function checkInput(name, phonenumber, date){
     this.name = name;
     this.phonenumber = phonenumber;
     this.date = date;
-    this.guests = guests;
     if(name ==""){
       nameElement.classList.add("inputInvalid");
       document.getElementById("nameError").style.display="block";
@@ -147,14 +144,7 @@ $(function(){
       dateElement.classList.remove("inputInvalid");
       document.getElementById("dateError").style.display="none";
       document.getElementById("completed").style.display="none";
-    } if (guests ==""){
-      guestsElement.classList.add("inputInvalid");
-      document.getElementById("guestError").style.display="block";
-    } if (guests !=""){
-      guestsElement.classList.remove("inputInvalid");
-      document.getElementById("guestError").style.display="none";
-      document.getElementById("completed").style.display="none";
-    } if(name != "" && phonenumber != "") { //if everything is okay show "completed" div
+    } if(name != "" && phonenumber != "" && date != "") { //if everything is okay show "completed" div
       document.getElementById("completed").style.display="block";
     }
   }
