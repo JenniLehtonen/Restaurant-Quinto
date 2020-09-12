@@ -23,6 +23,7 @@
       background-attachment: fixed;
     }
     </style>
+    <script src="https://kit.fontawesome.com/7a8935a1d9.js" crossorigin="anonymous"></script> <!--Fontawesome icons script-->
 </head>
 <body>
   <div id="page-container">
@@ -49,12 +50,12 @@
         <form id="f" action="">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" placeholder="Name" pattern="[A-Äa-ö,-]{3,}" maxlength="35" required autofocus><br>
-            <div id="nameError"><p>Please enter a valid name</p></div>
+            <div id="nameError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please enter a valid name</p></div>
             <label for="email">Email Address: <span style="color:rgb(95, 95, 95); font-weight:600;">(optional)</span></label><br>
             <input type="email" id="email" name="email"  placeholder="Email address" maxlength="40"><br>
             <label for="phonenumber">Phone Number:</label><br>
             <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone number" pattern="[0-9,+, ]{7,}" maxlength="16" required><br>
-            <div id="phoneError"><p>Please enter a valid phone number</p></div>
+            <div id="phoneError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please enter a valid phone number</p></div>
             <label for="date">Date:</label><br>
             <input type="date" id="date" name="date" required><br>
             <div id="dateError"><p>Please select the date</p></div>
@@ -69,10 +70,10 @@
               <option value="7people">7 people</option>
               <option value="8+people">8+ people</option>
             </select>
-            <div id="guestError"><p>Please select the number of guests</p></div><br>
+            <div id="guestError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please select the number of guests</p></div><br>
             <label for="comments">Comments: (optional)</label><br>
             <textarea id="comments" name="comments" rows="3" cols="50" style="resize: none;"></textarea><br>
-            <input type="submit" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.date.value, f.guests.value)" style="margin-top:2%;">
+            <input type="button" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.date.value, f.guests.value)" style="margin-top:2%;">
             <div id="completed"><p>Thank you for contacting us! We will get back to you soon!</p></div>
           </form> 
         </div>
@@ -139,14 +140,7 @@ $(function(){
       phoneElement.classList.remove("inputInvalid");
       document.getElementById("phoneError").style.display="none";
       document.getElementById("completed").style.display="none";
-    } if (message==""){
-      messageElement.classList.add("inputInvalid");
-      document.getElementById("messageError").style.display="block";
-    } if (message!=""){
-      messageElement.classList.remove("inputInvalid");
-      document.getElementById("messageError").style.display="none";
-      document.getElementById("completed").style.display="none";
-    } if(name != "" && phonenumber != "" & message != "") { //if everything is okay show "completed" div
+    } if(name != "" && phonenumber != "") { //if everything is okay show "completed" div
       document.getElementById("completed").style.display="block";
     }
   }
