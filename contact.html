@@ -42,15 +42,15 @@
           <form id="f" action="">
             <label for="name">Name:</label><br>
             <input type="text" id="name" name="name" pattern="[A-Äa-ö,-]{3,}"  placeholder="Name" maxlength="35" required><br>
-            <div><p id="nameError"><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i> Please enter a valid name</p></div>
+            <div><p id="nameError" style="color: #C1234B;"><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i> Please enter a valid name</p></div>
             <label for="email">Email Address: (optional)</label><br>
             <input type="email" id="email" name="email" placeholder="Email address" maxlength="40"><br>
             <label for="phonenumber">Phone Number:</label><br>
             <input type="tel" id="phonenumber" name="phonenumber" placeholder="Phone number" pattern="[0-9,+, ]{7,}" maxlength="16" required><br>
-            <div id="phoneError"><p>Please enter a valid phone number</p></div>
+            <div id="phoneError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please enter a valid phone number</p></div>
             <label for="message">Message:</label><br>
             <textarea id="message" name="message" rows="5" cols="50" style="resize: none;" required></textarea><br>
-            <div id="messageError"><p>Please enter a message for us</p></div>
+            <div id="messageError"><p><i class="fas fa-exclamation-triangle" style="color:#BB0728;"></i>Please enter a message for us</p></div>
             <input type="button" id="reservationbutton" value="Submit" onclick="checkInput(f.name.value, f.phonenumber.value, f.message.value)" style="margin-top:2%;">
             <div id="completed"><p>Thank you for contacting us! We will get back to you soon!</p></div>
           </form> 
