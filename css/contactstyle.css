@@ -57,6 +57,7 @@ input:focus {
 }
 #nameError, #phoneError, #messageError{
   font-weight:bold;
+  color: #C1234B;
 }
 textarea:focus{
   border: 2px solid rgb(136, 136, 136);
