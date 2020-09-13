@@ -12,7 +12,7 @@
   padding-bottom:2rem;
 }
 #mapid{ /*Leaflet map*/
-  height: 180px; 
+  height: 20rem; 
   width: 100%;
 }
 label{
