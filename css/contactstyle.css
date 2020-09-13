@@ -11,6 +11,10 @@
   background-color:white;
   padding-bottom:2rem;
 }
+#mapid{ /*Leaflet map*/
+  height: 180px; 
+  width: 100%;
+}
 label{
   padding-top:1%;
   font-size:1.2rem;
