@@ -16,6 +16,7 @@ var marker = L.marker([40.743430, -73.972652]).addTo(mymap);
    var nameElement=document.getElementById("name");
    var phoneElement=document.getElementById("phonenumber");
    var messageElement=document.getElementById("message");
+
 $(function(){
   $('a').each(function() {
     if ($(this).prop('href') == window.location.href) { //shows current page on the navigation bar
@@ -23,6 +24,7 @@ $(function(){
     }
   });
 });
+
   function checkInput(name, phonenumber, message){
     this.name = name;
     this.phonenumber = phonenumber;
@@ -43,6 +45,9 @@ $(function(){
       phoneElement.classList.remove("inputInvalid");
       document.getElementById("phoneError").style.display="none";
       document.getElementById("completed").style.display="none";
+    } if (phonenumber.length < 4){
+      phoneElement.classList.add("inputInvalid");
+      document.getElementById("phoneError").style.display="block";
     } if (message==""){
       messageElement.classList.add("inputInvalid");
       document.getElementById("messageError").style.display="block";
@@ -50,7 +55,7 @@ $(function(){
       messageElement.classList.remove("inputInvalid");
       document.getElementById("messageError").style.display="none";
       document.getElementById("completed").style.display="none";
-    } if(name != "" && phonenumber != "" & message != "") { //if everything is okay show "completed" div
+    } if(name != "" && phonenumber != "" & message != "" && phonenumber.length >= 4) { //if everything is okay show "completed" div
       document.getElementById("completed").style.display="block";
     }
   }
