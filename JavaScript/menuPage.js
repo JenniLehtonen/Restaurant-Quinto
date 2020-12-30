@@ -6,7 +6,7 @@ $(function(){
     });
   });
   //Get the button
-  var mybutton = document.getElementById("myBtn");
+  var mybutton = document.getElementById("backToTopBtn");
   
   // When the user scrolls down ...px from the top of the document, show the button
   window.onscroll = function() {scrollFunction()};

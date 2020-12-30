@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .flexcontentmenu{
     padding-bottom:10.15rem;
     padding-top:0.25rem;
@@ -72,7 +75,7 @@
     font-style: italic;
   }
     /*BACK TO TOP BUTTON*/
-    #myBtn {
+    #backToTopBtn {
       display: none;
       position: fixed;
       bottom: 3%;
@@ -88,6 +91,6 @@
       border:1px solid white;
     }
     
-  #myBtn:hover {
+  #backToTopBtn:hover {
     background-color:#555454f1;
     }
